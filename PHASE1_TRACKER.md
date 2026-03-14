@@ -45,17 +45,17 @@
 > ~10 hrs | R1 Chapters 1–4, R4 R5 R6
 
 **Setup tasks**
-- [ ] Install ARM GCC toolchain (R4) and verify with `arm-none-eabi-gcc --version`
-- [ ] Install OpenOCD (R5) and confirm it detects your STM32 board
-- [ ] Set up GDB (R6) and step through a simple Hello World on host
-- [ ] Configure editor (VS Code recommended: C/C++ extension + Cortex-Debug)
+- [x] Install ARM GCC toolchain (R4) and verify with `arm-none-eabi-gcc --version`
+- [ ] Install OpenOCD (R5) and confirm it detects your STM32 board --> NEED STM Board
+- [x] Set up GDB (R6) and step through a simple Hello World on host
+- [x] Configure editor (VS Code recommended: C/C++ extension + Cortex-Debug)
 - [x] Create GitHub repo `embedded-phase1` with initial README
 
 **Study tasks**
-- [ ] R1 Ch.1 — An Overview of C: compilation model, first program
-- [ ] R1 Ch.2 — Lexical elements, operators, the C system
-- [ ] R1 Ch.3 — Fundamental data types: integers, chars, floats, type conversion
-- [ ] R1 Ch.4 — Flow of control: if/else, switch, for/while/do-while
+- [x] R1 Ch.1 — An Overview of C: compilation model, first program
+- [x] R1 Ch.2 — Lexical elements, operators, the C system
+- [x] R1 Ch.3 — Fundamental data types: integers, chars, floats, type conversion
+- [x] R1 Ch.4 — Flow of control: if/else, switch, for/while/do-while
 - [ ] Write 3 small programs: factorial (loop), FizzBuzz, simple calculator
 
 > 🏁 **M1 checkpoint:** GCC, OpenOCD, and GDB all verified working.
