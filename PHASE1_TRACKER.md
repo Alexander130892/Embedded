@@ -49,7 +49,7 @@
 - [ ] Install OpenOCD (R5) and confirm it detects your STM32 board
 - [ ] Set up GDB (R6) and step through a simple Hello World on host
 - [ ] Configure editor (VS Code recommended: C/C++ extension + Cortex-Debug)
-- [ ] Create GitHub repo `embedded-phase1` with initial README
+- [x] Create GitHub repo `embedded-phase1` with initial README
 
 **Study tasks**
 - [ ] R1 Ch.1 — An Overview of C: compilation model, first program
