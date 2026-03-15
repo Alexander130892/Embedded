@@ -46,7 +46,7 @@
 
 **Setup tasks**
 - [x] Install ARM GCC toolchain (R4) and verify with `arm-none-eabi-gcc --version`
-- [ ] Install OpenOCD (R5) and confirm it detects your STM32 board --> NEED STM Board
+- [ ] Install OpenOCD (R5) and confirm it detects your STM32 board --> NEED STM Board --> Ordered
 - [x] Set up GDB (R6) and step through a simple Hello World on host
 - [x] Configure editor (VS Code recommended: C/C++ extension + Cortex-Debug)
 - [x] Create GitHub repo `embedded-phase1` with initial README
