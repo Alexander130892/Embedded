@@ -56,7 +56,7 @@
 - [x] R1 Ch.2 — Lexical elements, operators, the C system
 - [x] R1 Ch.3 — Fundamental data types: integers, chars, floats, type conversion
 - [x] R1 Ch.4 — Flow of control: if/else, switch, for/while/do-while
-- [ ] Write 3 small programs: factorial (loop), FizzBuzz, simple calculator
+- [x] Write 3 small programs: factorial (loop), FizzBuzz, simple calculator
 
 > 🏁 **M1 checkpoint:** GCC, OpenOCD, and GDB all verified working.
 
@@ -65,7 +65,7 @@
 #### Week 2 — Functions + Arrays
 > ~10 hrs | R1 Chapters 5–6
 
-- [ ] R1 Ch.5 — Functions: prototypes, scope, call stack, recursion (draw it out)
+- [x] R1 Ch.5 — Functions: prototypes, scope, call stack, recursion (draw it out)
 - [ ] R1 Ch.6 — Arrays, pointers, and strings: declaration, initialization, pointer decay
 - [ ] Exercise: implement `strlen`, `strcpy`, `memset` from scratch
 - [ ] Commit all exercises to GitHub under `week02/`
