@@ -1,18 +1,12 @@
-# Compiled output
+# Ignore compiled executables (no extension)
+*
+!*.*
+!*/
+
+# Ignore other build artifacts
 *.o
 *.out
-*.exe
-a.out
+*.dSYM/
 
-# Build directories
-build/
-bin/
-
-# IDE/editor files
+# Ignore VS Code settings
 .vscode/
-.idea/
-*.swp
-
-# OS files
-.DS_Store
-Thumbs.db
