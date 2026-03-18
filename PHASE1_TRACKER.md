@@ -219,8 +219,8 @@
 
 | Week | Topic | Status |
 |------|-------|--------|
-| 1 | Environment Setup + C Basics | ⬜ Not started |
-| 2 | Functions + Arrays | ⬜ Not started |
+| 1 | Environment Setup + C Basics | ✅ Done |
+| 2 | Functions + Arrays | ✅ Done |
 | 3 | Pointers + Memory Layout | ⬜ Not started |
 | 4 | Structs + Bit Manipulation | ⬜ Not started |
 | 5 | C Consolidation + Toolchain | ⬜ Not started |
