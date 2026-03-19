@@ -66,7 +66,7 @@
 > ~10 hrs | R1 Chapters 5–6
 
 - [x] R1 Ch.5 — Functions: prototypes, scope, call stack, recursion (draw it out)
-- [ ] R1 Ch.6 — Arrays, pointers, and strings: declaration, initialization, pointer decay
+- [x] R1 Ch.6 — Arrays, pointers, and strings: declaration, initialization, pointer decay
 - [ ] Exercise: implement `strlen`, `strcpy`, `memset` from scratch
 - [ ] Commit all exercises to GitHub under `week02/`
 
