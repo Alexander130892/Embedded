@@ -4,35 +4,6 @@
 > **Goal:** Get comfortable writing and debugging C on real hardware without IDE abstractions.
 > **Strategy:** Solid C first (Weeks 1–5), then bare-metal STM32 (Weeks 6–12).
 
----
-
-## 📦 Resources
-
-| # | Resource | Format | Link |
-|---|----------|--------|------|
-| R1 | A Book on C: Programming in C | Book | Al Kelley & Ira Pohl — ISBN 978-0805316247 |
-| R2 | Embedded Systems — Shape The World | Course | [edX / UT Austin (free audit)](https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-i) |
-| R3 | Mastering STM32 | Book/PDF | [Leanpub (free PDF)](https://leanpub.com/mastering-stm32) |
-| R4 | ARM GCC Toolchain | Tool | [developer.arm.com](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) |
-| R5 | OpenOCD | Tool | [openocd.org](https://openocd.org/) |
-| R6 | GDB (arm-none-eabi-gdb) | Tool | Included with R4 |
-| R7 | Embedded C Coding Standard | PDF | [Barr Group (free)](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf) — covers `stdint.h`, `volatile`, embedded conventions |
-
----
-
-## 🏁 Milestone Overview
-
-| Milestone | Target Week | Description |
-|-----------|-------------|-------------|
-| M1 | End of Week 2 | Dev environment fully set up (GCC, OpenOCD, GDB) |
-| M2 | End of Week 5 | C fundamentals complete — mini quiz / practice problems done |
-| M3 | End of Week 7 | First LED blink via bare-metal GPIO register write |
-| M4 | End of Week 9 | UART TX/RX working without HAL |
-| M5 | End of Week 11 | Timer interrupt firing reliably |
-| **M6** | **End of Week 12** | **GitHub deliverable repo published with README** |
-
----
-
 ## 📅 Weekly Schedule
 
 ---
@@ -67,8 +38,9 @@
 
 - [x] R1 Ch.5 — Functions: prototypes, scope, call stack, recursion (draw it out)
 - [x] R1 Ch.6 — Arrays, pointers, and strings: declaration, initialization, pointer decay
-- [ ] Exercise: implement `strlen`, `strcpy`, `memset` from scratch
-- [ ] Commit all exercises to GitHub under `week02/`
+- [x] Exercise: implement `strlen`, `strcpy`, `memset`, EXTRA: strcat from scratch
+- [x] EXTRA: NeuralNet -- map 2 inputs to 5 outputs (logic gates)
+- [x] Commit all exercises to GitHub under `week02/`
 
 ---
 
@@ -221,7 +193,7 @@
 |------|-------|--------|
 | 1 | Environment Setup + C Basics | ✅ Done |
 | 2 | Functions + Arrays | ✅ Done |
-| 3 | Pointers + Memory Layout | ⬜ Not started |
+| 3 | Pointers + Memory Layout | ✅ Done |
 | 4 | Structs + Bit Manipulation | ⬜ Not started |
 | 5 | C Consolidation + Toolchain | ⬜ Not started |
 | 6 | STM32 Architecture + GPIO | ⬜ Not started |
@@ -233,6 +205,34 @@
 | 12 | Deliverable + Docs | ⬜ Not started |
 
 > Update statuses to: `🟡 In progress` → `✅ Done`
+
+
+---
+
+## 📦 Resources
+
+| # | Resource | Format | Link |
+|---|----------|--------|------|
+| R1 | A Book on C: Programming in C | Book | Al Kelley & Ira Pohl — ISBN 978-0805316247 |
+| R2 | Embedded Systems — Shape The World | Course | [edX / UT Austin (free audit)](https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-i) |
+| R3 | Mastering STM32 | Book/PDF | [Leanpub (free PDF)](https://leanpub.com/mastering-stm32) |
+| R4 | ARM GCC Toolchain | Tool | [developer.arm.com](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) |
+| R5 | OpenOCD | Tool | [openocd.org](https://openocd.org/) |
+| R6 | GDB (arm-none-eabi-gdb) | Tool | Included with R4 |
+| R7 | Embedded C Coding Standard | PDF | [Barr Group (free)](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf) — covers `stdint.h`, `volatile`, embedded conventions |
+
+---
+
+## 🏁 Milestone Overview
+
+| Milestone | Target Week | Description |
+|-----------|-------------|-------------|
+| M1 | End of Week 2 | Dev environment fully set up (GCC, OpenOCD, GDB) |
+| M2 | End of Week 5 | C fundamentals complete — mini quiz / practice problems done |
+| M3 | End of Week 7 | First LED blink via bare-metal GPIO register write |
+| M4 | End of Week 9 | UART TX/RX working without HAL |
+| M5 | End of Week 11 | Timer interrupt firing reliably |
+| **M6** | **End of Week 12** | **GitHub deliverable repo published with README** |
 
 ---
 
