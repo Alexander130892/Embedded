@@ -17,7 +17,7 @@
 
 **Setup tasks**
 - [x] Install ARM GCC toolchain (R4) and verify with `arm-none-eabi-gcc --version`
-- [ ] Install OpenOCD (R5) and confirm it detects your STM32 board --> NEED STM Board --> Ordered
+- [x] Install OpenOCD (R5) and confirm it detects your STM32 board --> NEED STM Board --> Ordered
 - [x] Set up GDB (R6) and step through a simple Hello World on host
 - [x] Configure editor (VS Code recommended: C/C++ extension + Cortex-Debug)
 - [x] Create GitHub repo `embedded-phase1` with initial README
@@ -47,7 +47,7 @@
 #### Week 3 — Pointers + Memory Layout
 > ~10 hrs | R1 Chapter 6 (deep dive)
 
-- [ ] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
+- [x] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
 - [ ] Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
 - [ ] Exercise: swap two integers using pointers, without a temp variable
@@ -72,7 +72,7 @@
 
 - [ ] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
 - [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
-- [ ] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
+- [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
 - [ ] Study `volatile` keyword — why it matters in embedded C
 - [ ] Study `static` — file scope vs function scope meanings
 - [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
