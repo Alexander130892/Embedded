@@ -1,0 +1,49 @@
+/*
+ * File:    poly_mul.c
+ * Author:  Alexander Vindelinckx
+ * Date:    16-3-2026
+ *
+ * Description:
+ *   Polynomial addition and multiplication.
+ *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
+ *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ */
+
+//Libraries
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+//Consts
+#define N 5
+
+//Typedefs
+
+//Prototype Functions
+int is_palindrome(char*);
+
+//MAIN
+int main(){
+    char s[256];
+    int cnt=0;
+    while(scanf("%s", s)==1)
+        if(is_palindrome(s)) cnt++;
+    
+    printf("%d palindromes in directory\n", cnt);
+    return EXIT_SUCCESS;
+}
+
+int is_palindrome(char* str){
+    char *l= &str[0];
+    while(*l != '\0')l++; //find end of string
+    char *r=l-1;
+    l= &str[0];
+    while(l<r){
+        while(l < r && isspace(*l)) l++;
+        while(l < r && isspace(*r)) r--;
+        if(tolower(*l++) != tolower(*r--))
+            return 0;
+    }
+    return 1;
+}
