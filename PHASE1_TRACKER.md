@@ -44,22 +44,22 @@
 
 ---
 
-#### Week 3 — Pointers + Memory Layout
+#### Week 3 — Pointers + Bit Manipulation
 > ~10 hrs | R1 Chapter 6 (deep dive)
 
 - [x] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
-- [ ] Draw memory layout diagrams: stack, heap, BSS, data, text segments
+- [ ] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
 - [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
 - [ ] Exercise: swap two integers using pointers, without a temp variable
 - [ ] Commit exercises to GitHub under `week03/`
 
 ---
 
-#### Week 4 — Structs + Bit Manipulation
+#### Week 4 — Structs + Memory Lay-out
 > ~10 hrs | R1 Chapters 7 + 9
-
-- [ ] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
+- [ ] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
 - [ ] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
+- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [ ] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
 - [ ] Exercise: model a hardware register using a struct with bitfields
 - [ ] Exercise: pack/unpack a sensor value into a byte using shifts and masks
@@ -70,7 +70,7 @@
 #### Week 5 — C Consolidation + Toolchain Deep Dive
 > ~10 hrs | R1 Ch.8 review + R7 + GCC/GDB practice
 
-- [ ] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
+
 - [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
 - [ ] Study `volatile` keyword — why it matters in embedded C
