@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import json
+import time
 from datetime import date
 import requests
 
@@ -41,7 +42,11 @@ HEADER_RE = re.compile(
 # ---------------------------------------------------------------------------
 
 def generate_description(filename: str, source: str) -> str:
-    """Ask Claude for a concise one-to-two sentence description of the file."""
+    """Ask Claude for a concise one-to-two sentence description of the file.
+
+    Retries on transient errors (429 rate-limit, 529 overloaded) with
+    exponential backoff: waits 5s, 10s, 20s, 40s before giving up.
+    """
     if not API_KEY:
         return "No description available (ANTHROPIC_API_KEY not set)."
 
@@ -56,23 +61,39 @@ def generate_description(filename: str, source: str) -> str:
         f"```c\n{clean_source[:4000]}\n```"   # cap at 4 000 chars to stay lean
     )
 
-    response = requests.post(
-        API_URL,
-        headers={
-            "x-api-key": API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": MODEL,
-            "max_tokens": 200,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=30,
-    )
-    response.raise_for_status()
-    data = response.json()
-    return data["content"][0]["text"].strip()
+    RETRYABLE = {429, 529}
+    MAX_RETRIES = 8
+    delay = 5  # seconds; doubles each attempt
+
+    for attempt in range(MAX_RETRIES + 1):
+        response = requests.post(
+            API_URL,
+            headers={
+                "x-api-key": API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": MODEL,
+                "max_tokens": 200,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=30,
+        )
+
+        if response.status_code in RETRYABLE and attempt < MAX_RETRIES:
+            print(f"     ⚠ API returned {response.status_code} — "
+                  f"retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES}) …")
+            time.sleep(delay)
+            delay *= 2
+            continue
+
+        response.raise_for_status()
+        data = response.json()
+        return data["content"][0]["text"].strip()
+
+    # Should never reach here, but keeps the type-checker happy
+    raise RuntimeError("Exhausted all retries calling the Anthropic API.")
 
 
 def wrap_description(description: str, prefix: str = " *   ") -> str:
