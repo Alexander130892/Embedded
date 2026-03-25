@@ -1,13 +1,15 @@
 /*
- * File:    Ex_03_cyclic_shift.c.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_03_cyclic_shift.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This C program implements a cyclic left shift operation on
+ *   unsigned short integers, where bits shifted off the left end wrap
+ *   around to the right end. It includes a helper function to print
+ *   the binary representation of numbers and demonstrates the cyclic
+ *   shift with example values.
  */
-
 //Libraries
 #include <stdio.h>
 #include <limits.h>

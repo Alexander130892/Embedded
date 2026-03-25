@@ -1,3 +1,16 @@
+/*
+ * File:    Ex_15_enum_next_day.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This C program takes a date input (day and month as integers) from
+ *   the user and calculates the next day using an enum for months and
+ *   a function that handles month transitions. The program uses arrays
+ *   to store month names and days per month, though it doesn't account
+ *   for leap years in February.
+ */
+
 
 //Libraries
 #include <stdio.h>

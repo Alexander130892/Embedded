@@ -1,13 +1,17 @@
 /*
- * File:    Ex_03_cyclic_shift.c.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_04_shift_signed.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file demonstrates the difference between arithmetic and
+ *   logical right shift operations on signed and unsigned integers by
+ *   comparing how -1 behaves when right-shifted as both data types. It
+ *   includes utility functions for cyclic bit shifting and binary
+ *   representation printing to visualize the bit patterns and
+ *   determine whether zeros or ones are shifted in during the
+ *   operation.
  */
-
 //Libraries
 #include <stdio.h>
 #include <limits.h>

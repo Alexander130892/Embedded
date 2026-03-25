@@ -1,13 +1,16 @@
 /*
- * File:    Ex_03_cyclic_shift.c.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_08_bitprint_table.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file generates a table showing the binary representation of
+ *   powers of 2 (from 2^0 to 2^31) alongside their corresponding
+ *   bitmasks (power of 2 minus 1), then prints the binary
+ *   representation of the multi-character constant 'ab'. The program
+ *   uses a bitprint function to display integers as their binary bit
+ *   patterns with byte separators.
  */
-
 //Libraries
 #include <stdio.h>
 #include <limits.h>

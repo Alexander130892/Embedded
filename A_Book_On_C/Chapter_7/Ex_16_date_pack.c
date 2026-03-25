@@ -1,3 +1,16 @@
+/*
+ * File:    Ex_16_date_pack.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This C program demonstrates bit packing by compressing a date
+ *   (day, month, year) into a single 16-bit unsigned short integer and
+ *   then unpacking it back to verify the process. It uses bit
+ *   manipulation to store the day in 5 bits, month in 4 bits, and year
+ *   in 7 bits within the packed format.
+ */
+
 
 //Libraries
 #include <stdio.h>

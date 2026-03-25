@@ -1,13 +1,16 @@
 /*
- * File:    Ex_03_cyclic_shift.c.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_07_intstring.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file demonstrates Binary Coded Decimal (BCD) packing and
+ *   unpacking, which converts numeric digit strings into a compact
+ *   binary representation where each decimal digit occupies 4 bits
+ *   (one nibble) and then recovers the original string. The program
+ *   packs the string "12345678" into a 32-bit integer and unpacks it
+ *   back to verify the conversion process works correctly.
  */
-
 //Libraries
 #include <stdio.h>
 #include <limits.h>

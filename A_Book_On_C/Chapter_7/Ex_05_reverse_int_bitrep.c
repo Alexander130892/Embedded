@@ -1,13 +1,16 @@
 /*
- * File:    Ex_03_cyclic_shift.c.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_05_reverse_int_bitrep.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file demonstrates two different ways to print the binary
+ *   representation of an integer: the standard bit order using left
+ *   shifts and a reversed bit order using right shifts. It prints the
+ *   binary representation of the hexadecimal value 0xAAAA in both
+ *   normal and reversed bit sequences, with spaces separating each
+ *   byte for readability.
  */
-
 //Libraries
 #include <stdio.h>
 #include <limits.h>

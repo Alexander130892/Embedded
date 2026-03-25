@@ -1,3 +1,16 @@
+/*
+ * File:    Ex_14_enum_month.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This program demonstrates the use of enumerations in C by defining
+ *   a Month enum and implementing a function that calculates the
+ *   previous month for each month of the year. It prints a table
+ *   showing each month paired with its preceding month, with special
+ *   handling for January wrapping back to December.
+ */
+
 
 //Libraries
 #include <stdio.h>

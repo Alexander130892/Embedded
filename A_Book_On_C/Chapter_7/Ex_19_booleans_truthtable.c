@@ -1,3 +1,16 @@
+/*
+ * File:    Ex_19_booleans_truthtable.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This file generates and displays a truth table for three different
+ *   boolean functions (OR, AND, and a complex expression) applied to
+ *   4-bit inputs, using precomputed lookup tables stored as uint16_t
+ *   values where each bit position represents the function result for
+ *   that input combination.
+ */
+
 #include <stdio.h>
 #include <stdint.h>
 

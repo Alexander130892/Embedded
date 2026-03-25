@@ -1,3 +1,17 @@
+/*
+ * File:    Ex_17_next_daydate_pack.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This file demonstrates date packing by compressing a date into a
+ *   16-bit unsigned short (5 bits for day, 4 bits for month, 7 bits
+ *   for year) and implements functionality to unpack the date and
+ *   calculate the next day. The program takes user input for a date,
+ *   packs it into the compressed format, then displays both the
+ *   original date after unpacking and the next day's date.
+ */
+
 
 //Libraries
 #include <stdio.h>
