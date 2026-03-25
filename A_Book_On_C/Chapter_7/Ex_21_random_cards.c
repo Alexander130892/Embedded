@@ -1,13 +1,14 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_21_random_cards.c
  * Author:  Alexander130892
  * Date:    25-3-2026
  *
  * Description:
- *   This file demonstrates packing four char values into a single
- *   unsigned int using bit shifting operations, then prints the binary
- *   representation of the packed result with spaces separating each
- *   byte.
+ *   This file simulates dealing a 5-card poker hand by randomly
+ *   selecting unique playing cards from a standard 52-card deck and
+ *   displaying the results. The program ensures no duplicate cards are
+ *   drawn by checking each new random card against previously selected
+ *   ones before adding it to the hand.
  */
 //write pack into one line
 #include <stdio.h>
