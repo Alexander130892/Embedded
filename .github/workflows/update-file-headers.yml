@@ -6,6 +6,14 @@ on:
       - "**.c"
       - "**.h"
 
+  # Manual trigger — lets you process an entire folder from the GitHub UI
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Folder to process (e.g. A_Book_On_C/Chapter_7). Leave empty for entire repo."
+        required: false
+        default: ""
+
 jobs:
   update-headers:
     runs-on: ubuntu-latest
@@ -20,7 +28,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch full history so we can diff against the previous commit
           fetch-depth: 2
 
       - name: Set up Python
@@ -31,24 +38,31 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Detect changed C/H files
+      - name: Detect target C/H files
         id: changed
         run: |
-          # List files changed in this push that still exist (not deleted)
-          git diff --name-only --diff-filter=d HEAD~1 HEAD \
-            | grep -E '\.(c|h)$' > changed_files.txt || true
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Manual run: find all .c/.h files in the given folder (or whole repo)
+            SEARCH_ROOT="${{ github.event.inputs.folder }}"
+            SEARCH_ROOT="${SEARCH_ROOT:-.}"   # default to repo root if empty
+            echo "Manual run — scanning: $SEARCH_ROOT"
+            find "$SEARCH_ROOT" -type f \( -name "*.c" -o -name "*.h" \) \
+              ! -path "*/.git/*" > changed_files.txt
+          else
+            # Push trigger: only process files changed in this commit
+            git diff --name-only --diff-filter=d HEAD~1 HEAD \
+              | grep -E '\.(c|h)$' > changed_files.txt || true
+          fi
 
-          echo "Changed files:"
+          echo "Files to process:"
           cat changed_files.txt
-
-          # Expose as a step output (newline → space for later use)
           echo "files=$(cat changed_files.txt | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
 
       - name: Update file headers
         if: steps.changed.outputs.files != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AUTHOR_NAME: ${{ github.event.pusher.name }}
+          AUTHOR_NAME: ${{ github.actor }}
         run: |
           python .github/scripts/update_headers.py changed_files.txt
 
