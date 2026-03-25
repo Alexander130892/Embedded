@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_17_factorial.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file calculates and displays the factorial of 5 using a
+ *   recursive function, printing the result (120) alongside a message
+ *   about the universe being never ending.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -5,11 +5,11 @@
  *
  * Description:
  *   This file demonstrates Binary Coded Decimal (BCD) packing and
- *   unpacking, which converts numeric digit strings into a compact
- *   binary representation where each decimal digit occupies 4 bits
- *   (one nibble) and then recovers the original string. The program
- *   packs the string "12345678" into a 32-bit integer and unpacks it
- *   back to verify the conversion process works correctly.
+ *   unpacking by converting a string of digits into a compact 32-bit
+ *   representation where each digit occupies 4 bits, then recovering
+ *   the original string. The program includes utility functions for
+ *   bit manipulation and supports processing longer strings through
+ *   multi-chunk packing.
  */
 //Libraries
 #include <stdio.h>

@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_33_min_xyz.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file finds and prints the maximum of three integer variables
+ *   (x=1, y=2, z=3) using nested ternary operators, followed by
+ *   syntactically incorrect switch statements that would cause
+ *   compilation errors.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

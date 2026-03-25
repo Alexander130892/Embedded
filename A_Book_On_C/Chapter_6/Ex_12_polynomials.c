@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_12_polynomials.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements two different methods for evaluating
+ *   polynomials at a given point: a direct evaluation using powers and
+ *   Horner's method for more efficient computation. Both functions
+ *   evaluate the same 5th-degree polynomial with coefficients
+ *   [1,2,3,4,5,6] at x=2 and print the results.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stddef.h>

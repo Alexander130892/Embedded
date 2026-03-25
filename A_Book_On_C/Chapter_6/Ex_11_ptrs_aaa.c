@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_11_ptrs_aaa.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program demonstrates pointer arithmetic by initializing an
+ *   integer array and a pointer that points to the 4th element (index
+ *   3), then prints the values at that position and the next position
+ *   using pointer dereferencing.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stddef.h>

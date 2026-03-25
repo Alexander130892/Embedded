@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_03_scope.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates variable scope in C by showing how a global
+ *   variable `z` is modified by a function while a local parameter `x`
+ *   remains unchanged, illustrating the difference between
+ *   pass-by-value and global variable access.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

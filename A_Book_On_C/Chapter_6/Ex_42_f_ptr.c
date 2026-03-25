@@ -1,13 +1,14 @@
 /*
- * File:    args.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_42_f_ptr.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This program demonstrates function pointers by passing the
+ *   addresses of the `strcmp` function and the `main` function to a
+ *   helper function that prints their memory addresses, with special
+ *   handling to identify when the `strcmp` function is passed.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_06_Overflow.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates integer overflow by adding two large
+ *   numbers (2,000,000,000 each) that exceed the maximum value for a
+ *   32-bit unsigned integer, then prints the result as both signed and
+ *   unsigned integers to show the overflow behavior.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

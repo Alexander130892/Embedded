@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_01_pointvals.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates pointer arithmetic and dereferencing
+ *   operations in C by printing the address of an integer variable and
+ *   the results of various pointer-based calculations. It also casts
+ *   pointer addresses to integers to show their numeric values.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

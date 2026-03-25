@@ -1,13 +1,16 @@
 /*
- * File:    args.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_35_string_matrix.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file demonstrates complex pointer arithmetic and
+ *   dereferencing operations on a 2D array of string pointers,
+ *   printing individual characters accessed through various
+ *   multi-level pointer expressions. The program serves as an exercise
+ *   in understanding how to navigate and extract data from nested
+ *   pointer structures containing strings.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

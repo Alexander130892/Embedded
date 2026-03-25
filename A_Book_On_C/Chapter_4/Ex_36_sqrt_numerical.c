@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_36_sqrt_numerical.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements a numerical square root calculation using
+ *   Newton's method (also known as the Babylonian method) and tests it
+ *   on numbers from 10 to 1000, displaying the computed square root
+ *   and number of iterations required for convergence.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

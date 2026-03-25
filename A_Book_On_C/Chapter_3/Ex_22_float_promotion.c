@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_22_float_promotion.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates that arithmetic operations between float
+ *   variables in C do not automatically promote the result to double
+ *   type, as evidenced by printing the sizes of float, double, and the
+ *   result of adding two floats.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

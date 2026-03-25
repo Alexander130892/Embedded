@@ -1,14 +1,16 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_25_sizeof.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file demonstrates the sizeof operator in C by printing the
+ *   sizes of different data types including string arrays, pointers,
+ *   integer arrays, and double arrays, while also showing how array
+ *   parameters are treated as pointers in function calls. The file
+ *   includes additional unused functions for arithmetic operations on
+ *   arrays representing large numbers stored as digit arrays.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

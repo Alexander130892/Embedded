@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_20_SC_Evaluation.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C file demonstrates short-circuit evaluation behavior of
+ *   logical operators (&& and ||) by showing how the right-hand side
+ *   expressions are either evaluated or skipped based on the left-hand
+ *   side values. It prints the values of variables to illustrate when
+ *   assignments occur or are bypassed due to short-circuiting.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

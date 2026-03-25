@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_08_printed.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program demonstrates boolean expression evaluation and
+ *   operator precedence by printing the results of various logical
+ *   comparisons involving character equality, logical OR operations,
+ *   negation operators, and floating-point arithmetic comparisons.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,3 +1,14 @@
+/*
+ * File:    debug_practice.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This file is a simple C program designed for debugging practice
+ *   that demonstrates basic arithmetic operations and control flow by
+ *   adding two numbers and printing doubled values in a loop.
+ */
+
 #include <stdio.h>
 
 int add(int a, int b) {

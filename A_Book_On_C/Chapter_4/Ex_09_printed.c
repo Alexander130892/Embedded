@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_09_printed.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates C's if-else statement association rules by
+ *   testing nested conditionals where the variables i and j are both
+ *   set to 7, resulting in the else clause executing and printing the
+ *   result of i=i-j followed by the final value of i.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

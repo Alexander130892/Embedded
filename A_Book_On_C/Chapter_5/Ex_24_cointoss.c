@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_24_cointoss.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program simulates one million coin tosses and calculates the
+ *   percentage of heads, the longest streak of consecutive heads, and
+ *   the longest streak of alternating results (heads-tails-heads-tails
+ *   pattern). It uses random number generation to simulate the coin
+ *   flips and tracks various statistical patterns in the results.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

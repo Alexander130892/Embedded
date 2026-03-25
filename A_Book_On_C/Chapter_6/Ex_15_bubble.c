@@ -1,14 +1,15 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_15_bubble.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file implements a bubble sort algorithm to sort an array of
+ *   double values in ascending order, with an optimized version that
+ *   stops early if no swaps are made during a pass. The program
+ *   demonstrates the sorting by printing an array before and after
+ *   applying the bubble sort function.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

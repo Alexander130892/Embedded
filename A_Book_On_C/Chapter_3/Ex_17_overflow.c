@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_17_overflow.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates integer overflow behavior in C by
+ *   performing addition and multiplication operations on the maximum
+ *   unsigned integer value (UINT_MAX) and printing the results to show
+ *   how the values wrap around when they exceed the maximum
+ *   representable value.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

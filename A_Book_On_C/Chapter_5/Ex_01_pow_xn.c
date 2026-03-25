@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_01_pow_xn.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements a custom power function that calculates x
+ *   raised to the power of n using iterative multiplication, and
+ *   demonstrates it by computing 3.5^7.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

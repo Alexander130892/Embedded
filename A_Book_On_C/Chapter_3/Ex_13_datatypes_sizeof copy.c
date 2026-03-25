@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_13_datatypes_sizeof copy.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program prints the memory size (in bytes) of various
+ *   fundamental data types including char, short, int, unsigned, long,
+ *   float, double, and long double using the sizeof operator.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

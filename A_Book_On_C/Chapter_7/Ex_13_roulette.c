@@ -4,15 +4,13 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This C program simulates a roulette game where the player starts
- *   with $5 and can bet on specific numbers (0-35), even numbers, or
- *   odd numbers, with payouts of 35x, 2x, and 2x respectively. The
- *   game continues until the player runs out of money, with each spin
- *   costing $1 and using random number generation to determine the
- *   winning number.
+ *   This file implements a simple roulette gambling game where the
+ *   player starts with a $5 budget and can bet on specific numbers
+ *   (0-35), even numbers, or odd numbers until they run out of money.
+ *   The game uses random number generation to simulate roulette spins,
+ *   with payouts of 2:1 for even/odd bets and 35:1 for exact number
+ *   matches.
  */
-
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

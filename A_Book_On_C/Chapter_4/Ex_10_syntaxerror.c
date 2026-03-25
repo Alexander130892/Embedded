@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_10_syntaxerror.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates a simple do-while loop that calculates and
+ *   prints values using the formula j=2*i+3 for i from 0 to 9,
+ *   producing output from 3 to 21. Despite its filename suggesting a
+ *   syntax error, the code compiles and runs correctly, though it
+ *   contains unused constants and headers.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

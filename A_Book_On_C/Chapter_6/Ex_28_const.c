@@ -1,14 +1,14 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_28_const.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file demonstrates undefined behavior by attempting to modify
+ *   a const char array through a non-const pointer, which violates the
+ *   const qualifier and may cause a runtime error or unpredictable
+ *   results.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

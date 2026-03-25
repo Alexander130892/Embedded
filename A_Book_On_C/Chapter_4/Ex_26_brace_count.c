@@ -1,12 +1,16 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_26_brace_count.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program reads input character by character, counts matching
+ *   pairs of curly braces `{}` and parentheses `()`, and outputs the
+ *   original text while marking syntax errors with `?` when closing
+ *   braces appear before their corresponding opening braces. After
+ *   processing all input, it reports whether the braces are properly
+ *   balanced and suggests missing closing braces if needed.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

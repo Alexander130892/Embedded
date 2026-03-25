@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_25_TruthTabl.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file generates and displays truth tables for three different
+ *   logical functions using four boolean variables (b1, b2, b3, b4),
+ *   showing all 16 possible input combinations and their corresponding
+ *   outputs for OR, AND, and a complex boolean expression.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

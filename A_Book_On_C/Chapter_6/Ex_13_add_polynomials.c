@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_13_add_polynomials.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program adds two polynomials by adding their corresponding
+ *   coefficients and stores the result in a third polynomial array. It
+ *   includes a Horner's method function for polynomial evaluation but
+ *   only uses the polynomial addition functionality in the main
+ *   function.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stddef.h>

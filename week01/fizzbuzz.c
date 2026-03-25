@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    fizzbuzz.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements the classic FizzBuzz programming exercise,
+ *   printing numbers 1 to 100 while replacing multiples of 3 with
+ *   "Fizz", multiples of 5 with "Buzz", and multiples of both with
+ *   "FizzBuzz".
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

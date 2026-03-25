@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Test_theory.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file benchmarks the performance of the rand() function by
+ *   timing 100 million calls to it, displaying a sample of the first
+ *   24 generated random numbers (modulo 101) in a 3x8 grid format, and
+ *   calculating the average time per function call.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

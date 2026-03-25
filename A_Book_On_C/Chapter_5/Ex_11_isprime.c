@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_11_isprime.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements a prime number checking function that tests
+ *   whether a given integer is prime by checking for divisors up to
+ *   its square root. The main function demonstrates the isprime
+ *   function by testing whether the number 10 is prime and prints the
+ *   result.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,15 +1,16 @@
 /*
- * File:    strcopy_.c
- * Author:  Alexander Vindelinckx
- * Date:    22-3-2026
+ * File:    strcpy_.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   copy strings.
- *      copy s2 to s1
- *      assume s1 has enough space available in memory to store s2
- *      attempt to recreate standard string.h function from scratch
+ *   This file implements a custom version of the standard C library
+ *   function `strcpy` that copies a string from source to destination
+ *   and returns a pointer to the destination string. The
+ *   implementation demonstrates string copying by overwriting the
+ *   entire destination buffer and includes a test that shows the
+ *   original string being completely replaced.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

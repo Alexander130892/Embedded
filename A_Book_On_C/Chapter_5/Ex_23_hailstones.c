@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_23_hailstones.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements the Collatz conjecture (hailstone sequence)
+ *   starting from the number 114, recursively applying the rules of
+ *   dividing by 2 if even or multiplying by 3 and adding 1 if odd
+ *   until reaching 1. It prints each number in the sequence and counts
+ *   the total steps needed to reach 1.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

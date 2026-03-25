@@ -4,12 +4,11 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This file extracts even-positioned bits (0, 2, 4, ..., 30) from a
- *   32-bit integer and packs them into a 16-bit result, with one
- *   implementation using bit manipulation tricks and another using a
- *   straightforward loop approach.
+ *   This file extracts all even-positioned bits (0, 2, 4, ..., 30)
+ *   from a 32-bit integer and packs them into a 16-bit result, with
+ *   two different implementations: an optimized bit-manipulation
+ *   approach using masks and shifts, and a simpler iterative method.
  */
-
 #include <stdint.h>
 
 /**

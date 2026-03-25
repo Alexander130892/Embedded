@@ -4,12 +4,11 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This file demonstrates two different ways to print the binary
- *   representation of an integer: the standard bit order using left
- *   shifts and a reversed bit order using right shifts. It prints the
- *   binary representation of the hexadecimal value 0xAAAA in both
- *   normal and reversed bit sequences, with spaces separating each
- *   byte for readability.
+ *   This file demonstrates printing the binary representation of an
+ *   integer in both normal and reverse bit order. It uses the
+ *   hexadecimal value 0xAAAA as input and displays its bits from
+ *   most-to-least significant and then from least-to-most significant,
+ *   with spaces separating each byte.
  */
 //Libraries
 #include <stdio.h>

@@ -1,13 +1,16 @@
 /*
- * File:    sincos_plot.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_32_sincos_plot.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Graphs sin() and cos() from 0 to 2*PI on a 2D character array
- *   sized to match a standard terminal (80x24).
+ *   This program creates a text-based plot of sine and cosine
+ *   functions over one full period (0 to 2π) on an 80x24 character
+ *   grid, marking sine values with 'S' and cosine values with 'C'. It
+ *   draws coordinate axes and maps the mathematical functions to
+ *   screen coordinates, with the y-axis flipped to accommodate the
+ *   top-to-bottom row ordering of terminal displays.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

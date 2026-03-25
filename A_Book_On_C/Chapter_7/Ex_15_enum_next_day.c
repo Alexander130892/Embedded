@@ -4,14 +4,13 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This C program takes a date input (day and month as integers) from
- *   the user and calculates the next day using an enum for months and
- *   a function that handles month transitions. The program uses arrays
- *   to store month names and days per month, though it doesn't account
- *   for leap years in February.
+ *   This C program takes a date input (day and month) from the user
+ *   and calculates the next day, handling month transitions when the
+ *   current day is the last day of the month. It uses an enumerated
+ *   type for months and global arrays to store month names and the
+ *   number of days in each month, but notably does not account for
+ *   leap years in February.
  */
-
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

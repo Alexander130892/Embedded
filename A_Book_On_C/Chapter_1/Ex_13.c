@@ -1,3 +1,17 @@
+/*
+ * File:    Ex_13.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This program reads floating-point numbers from input and displays
+ *   a running average calculated using two different methods: an
+ *   incremental averaging formula and a traditional
+ *   sum-divided-by-count approach. It outputs a formatted table
+ *   showing the count, current input value, and both average
+ *   calculations for comparison purposes.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

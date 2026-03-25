@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_36_birthdaygame copy.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program simulates the famous birthday paradox problem by
+ *   running Monte Carlo simulations to calculate the probability that
+ *   at least two people share the same birthday in groups of varying
+ *   sizes (2 to 49 people). It performs one million trials for each
+ *   group size and outputs the success rate as a percentage.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

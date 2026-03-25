@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_13_goldbach_conj.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates Goldbach's conjecture by finding and
+ *   printing pairs of prime numbers that sum to each even number in
+ *   the range 700-1100. It uses a brute-force approach to find the
+ *   first valid prime pair for each even number and displays the
+ *   decomposition in the format "n = prime1 + prime2".
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

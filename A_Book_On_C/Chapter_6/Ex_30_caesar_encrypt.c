@@ -1,14 +1,15 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_30_caesar_encrypt.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file implements Caesar cipher encryption and decryption with
+ *   a shift of 3, demonstrating both encoding and decoding of a test
+ *   string while preserving non-alphabetic characters. The program
+ *   uses a reusable caesar() function that handles both positive and
+ *   negative shifts with proper wraparound for the alphabet.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

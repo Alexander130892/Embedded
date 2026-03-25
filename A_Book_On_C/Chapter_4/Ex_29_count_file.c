@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_29_count_file.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file reads all characters from standard input and counts the
+ *   occurrences of different character types (blanks, digits,
+ *   lowercase letters, uppercase letters, newlines, and others), then
+ *   displays the results in a formatted table with totals.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

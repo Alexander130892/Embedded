@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_08_eps.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program tests floating-point precision by checking if the
+ *   expression `1.0 < 1.0 + eps` evaluates to true when eps is set to
+ *   1e-15, printing "True" or "False" based on whether the small
+ *   epsilon value is significant enough to be detected in
+ *   floating-point arithmetic.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

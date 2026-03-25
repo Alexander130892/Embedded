@@ -1,12 +1,16 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_28_count_file.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program reads characters from standard input and counts
+ *   different character types (blanks, digits, lowercase letters,
+ *   uppercase letters, newlines, and others), then displays the counts
+ *   in a formatted table with totals. It processes input until EOF is
+ *   reached and categorizes each character into one of six distinct
+ *   categories.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

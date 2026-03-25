@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_38_str_reverse.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates string reversal by implementing a function
+ *   that reverses a string in-place using two pointers that swap
+ *   characters from both ends moving toward the center. The program
+ *   prints the original string, the reversed string, and shows that
+ *   the original string has been permanently modified.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

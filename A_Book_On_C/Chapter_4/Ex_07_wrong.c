@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_07_wrong.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program demonstrates a common programming error by using
+ *   assignment (=) instead of comparison (==) in an if statement,
+ *   which will always execute the printf statement and output "2, 4,
+ *   6" regardless of the intended logic.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

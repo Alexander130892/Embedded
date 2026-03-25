@@ -1,14 +1,15 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_31_matrix_func.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file demonstrates passing a 3x3 integer matrix to a function
+ *   and prints selected matrix elements (a[1][0], -a[1][1], a[0][0],
+ *   a[2][2]) in a formatted output. The program serves as an example
+ *   of matrix function parameter passing using both array notation and
+ *   pointer notation in the function declaration.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

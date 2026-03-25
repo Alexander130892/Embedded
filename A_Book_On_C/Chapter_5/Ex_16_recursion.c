@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_16_recursion.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates recursion by having the main function call
+ *   itself 17 times, printing "The Universe is never ending!" with an
+ *   incrementing counter each time, and includes an unused prime
+ *   factorization function.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

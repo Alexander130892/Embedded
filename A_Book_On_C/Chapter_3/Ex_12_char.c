@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_12_char.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates character overflow behavior by assigning
+ *   values 256 and 257 to char variables and printing their actual
+ *   stored values, showing how chars wrap around due to their limited
+ *   range.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

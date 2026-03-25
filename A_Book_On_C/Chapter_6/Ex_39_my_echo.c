@@ -1,13 +1,13 @@
 /*
- * File:    args.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_39_my_echo.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file implements a simple echo program that prints all
+ *   command-line arguments (including the program name) separated by
+ *   spaces, followed by a newline.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

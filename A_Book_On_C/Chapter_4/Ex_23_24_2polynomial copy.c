@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_23_24_2polynomial copy.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file solves quadratic equations of the form ax²+bx+c=0 by
+ *   calculating and displaying the real or complex roots using the
+ *   quadratic formula. It handles special cases including linear
+ *   equations (when a=0) and displays complex roots when the
+ *   discriminant is negative.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

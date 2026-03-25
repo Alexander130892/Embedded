@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_05_ptradrr.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates memory addresses of local variables by
+ *   declaring three char variables and three char pointers, then
+ *   printing their memory addresses as unsigned long integers to show
+ *   how variables are arranged in memory.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stddef.h>

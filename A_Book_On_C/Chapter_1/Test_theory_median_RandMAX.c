@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Test_theory_median_RandMAX.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file appears to be a placeholder or test stub that defines
+ *   constants for testing random number generation and median
+ *   calculations (based on the filename) but currently only prints a
+ *   nonsensical string and exits successfully.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,13 +1,17 @@
 /*
- * File:    sincos_plot.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_33_dissection.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Graphs sin() and cos() from 0 to 2*PI on a 2D character array
- *   sized to match a standard terminal (80x24).
+ *   This file demonstrates C array and pointer manipulation by
+ *   creating a 3x5 integer array, filling it with sequential values,
+ *   and displaying the data through different access methods including
+ *   2D array notation, pointer arithmetic, and various dereference
+ *   operations. The file also contains unused helper functions for
+ *   drawing coordinate axes on a character screen, suggesting it may
+ *   be part of a larger graphics or plotting exercise.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

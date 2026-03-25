@@ -4,12 +4,13 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This file implements a bitwise majority function that determines,
- *   for each bit position, whether the majority of three input values
- *   have that bit set (returning 1 if at least 2 out of 3 bits are 1,
- *   otherwise 0). It demonstrates this functionality by processing
- *   three hardcoded 16-bit values and displaying both the inputs and
- *   result in binary format.
+ *   This C program implements a bitwise majority function that
+ *   performs a bit-by-bit majority vote on three 16-bit integers,
+ *   returning a result where each bit position contains 1 if at least
+ *   two of the three input bits at that position are 1, and 0
+ *   otherwise. The program demonstrates this functionality by applying
+ *   the majority operation to three hardcoded hexadecimal values and
+ *   displaying both the inputs and output in binary format.
  */
 //Libraries
 #include <stdio.h>

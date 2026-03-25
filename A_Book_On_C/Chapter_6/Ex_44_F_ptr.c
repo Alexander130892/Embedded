@@ -1,13 +1,14 @@
 /*
- * File:    args.c
- * Author:  Alexander Vindelinckx
- * Date:    18-3-2026
+ * File:    Ex_44_F_ptr.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Prints command line arguments, uppercased if -c flag is present.
- *   Skips the -c flag itself in output.
+ *   This file demonstrates different ways to call functions using
+ *   function pointer syntax and excessive parentheses, creating a
+ *   chain of function calls from f() to g() to h() that each print a
+ *   greeting message.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

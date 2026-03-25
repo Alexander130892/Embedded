@@ -1,3 +1,17 @@
+/*
+ * File:    mergesort.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This file implements a recursive merge sort algorithm that sorts
+ *   an integer array by recursively dividing it at the largest power
+ *   of 2 less than the array size, then merging the sorted subarrays
+ *   back together. The implementation includes two commented-out
+ *   iterative versions and uses dynamic memory allocation for the
+ *   temporary merge buffer.
+ */
+
 #include "mergesort.h"
 // void merge_sort(int key[], int n){
 //     int j, k, m, *w;

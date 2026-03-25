@@ -1,15 +1,15 @@
 /*
  * File:    strcat_.c
- * Author:  Alexander Vindelinckx
- * Date:    22-3-2026
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   concatenate two strings.
- *      append s2 to s1
- *      assume s1 has enough space available in memory to store s1+s2
- *      attempt to recreate standard string.h function from scratch
+ *   This file implements a custom string concatenation function
+ *   `strcat_` that appends the second string to the end of the first
+ *   string, modifying the first string in place. The program
+ *   demonstrates this functionality by concatenating two strings and
+ *   printing the results before and after the operation.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

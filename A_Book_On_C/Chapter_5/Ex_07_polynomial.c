@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_07_polynomial.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program evaluates and prints the values of a quadratic
+ *   polynomial f(x) = ax² + bx + c with coefficients a=1, b=-3, c=2
+ *   for x values from 0 to 3 in increments of 0.1. The polynomial is
+ *   computed using Horner's method for efficient evaluation.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    calculator.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file implements a simple command-line calculator that prompts
+ *   the user to input two real numbers and an arithmetic operator (+,
+ *   -, *, /), then performs the calculation and displays the result.
+ *   It includes input validation for the operator and handles division
+ *   by zero errors by printing an error message and returning -1.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

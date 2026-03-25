@@ -1,3 +1,17 @@
+/*
+ * File:    Ex_14.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This program demonstrates pointer arithmetic and string
+ *   manipulation in C by printing character values derived from
+ *   pointer operations and modifying a substring to replace 'e' with
+ *   'E' and spaces with newlines. It showcases various ways to access
+ *   and manipulate characters in strings using both array notation and
+ *   pointer dereferencing.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,3 +1,15 @@
+/*
+ * File:    find_roots.h
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This header file declares functions for finding roots of
+ *   mathematical functions using the bisection method, including
+ *   multiple equivalent function pointer syntax variations and three
+ *   predefined test functions (f1, f2, f3).
+ */
+
 #include <assert.h>
 #include <math.h>
 #include <stdio.h>

@@ -1,14 +1,15 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_22_print_q.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file contains a palindrome checking function but its main
+ *   purpose is to demonstrate complex C string indexing and pointer
+ *   arithmetic by printing "hello!" through various string access
+ *   methods. The palindrome function is defined but never called from
+ *   main.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

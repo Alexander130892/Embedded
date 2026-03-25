@@ -6,11 +6,10 @@
  * Description:
  *   This file generates and displays a truth table for three different
  *   boolean functions (OR, AND, and a complex expression) applied to
- *   4-bit inputs, using precomputed lookup tables stored as uint16_t
- *   values where each bit position represents the function result for
- *   that input combination.
+ *   4-bit inputs, using precomputed lookup tables stored as 16-bit
+ *   integers where each bit represents the function result for the
+ *   corresponding input value.
  */
-
 #include <stdio.h>
 #include <stdint.h>
 

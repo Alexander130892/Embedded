@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_14_putchar_int.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates the behavior of putchar() function calls
+ *   within a printf statement, showing that putchar() returns an
+ *   integer value (the character code) while also printing the
+ *   characters to stdout, resulting in the characters being printed
+ *   before their corresponding integer values.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

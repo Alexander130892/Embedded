@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_25_hex.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program demonstrates that hexadecimal literals are
+ *   case-insensitive by declaring three integer variables with the
+ *   same hexadecimal value (0xABC) written in different cases and
+ *   printing their decimal equivalents to show they are all equal to
+ *   2748.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

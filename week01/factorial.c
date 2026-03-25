@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    factorial.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file computes the factorial of a number using both recursive
+ *   and iterative approaches, returning -1 for negative inputs as an
+ *   error indicator. The program demonstrates both methods by
+ *   calculating the factorial of -5, which will return -1 from both
+ *   functions due to the negative input validation.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

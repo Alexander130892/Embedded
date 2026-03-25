@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_03_char_count.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This C program reads characters from standard input until EOF and
+ *   counts how many are digits (0-9) versus other characters, then
+ *   prints the total character count along with the breakdown of
+ *   digits and non-digits.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

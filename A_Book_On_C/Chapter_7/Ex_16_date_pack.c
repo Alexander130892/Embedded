@@ -4,14 +4,13 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This C program demonstrates bit packing by compressing a date
- *   (day, month, year) into a single 16-bit unsigned short integer and
- *   then unpacking it back to verify the process. It uses bit
- *   manipulation to store the day in 5 bits, month in 4 bits, and year
- *   in 7 bits within the packed format.
+ *   This program demonstrates bit packing and unpacking of date
+ *   components by compressing a day, month, and year into a single
+ *   16-bit unsigned short integer and then extracting them back. It
+ *   uses bitwise operations to pack the date into 5 bits for day, 4
+ *   bits for month, and 7 bits for year, then unpacks the data using
+ *   bit masks to verify the process worked correctly.
  */
-
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

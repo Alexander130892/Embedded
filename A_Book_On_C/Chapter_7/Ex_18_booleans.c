@@ -4,13 +4,11 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This file demonstrates boolean operations on 4-bit values by
- *   extracting individual bits (0-3) from numbers 0-15 and displaying
- *   truth tables for three different boolean functions: OR of all
- *   bits, AND of all bits, and a complex expression combining NOT, OR,
- *   and AND operations.
+ *   This file demonstrates boolean operations by extracting the first
+ *   4 bits from numbers 0-15 and displaying truth tables for three
+ *   different logical functions: OR of all bits, AND of all bits, and
+ *   a complex boolean expression involving negations and conditionals.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

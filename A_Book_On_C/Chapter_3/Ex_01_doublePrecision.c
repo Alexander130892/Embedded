@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_01_doublePrecision.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates the precision limitations of
+ *   double-precision floating-point numbers by printing the same value
+ *   with different levels of precision using both decimal and
+ *   hexadecimal formats. It shows how trailing digits beyond double
+ *   precision are lost or approximated when stored in memory.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

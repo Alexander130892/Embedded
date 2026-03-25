@@ -1,14 +1,14 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_20_pallindrome.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This C program reads strings from standard input and counts how
+ *   many of them are palindromes, ignoring whitespace and case
+ *   differences. It outputs the total count of palindromes found with
+ *   the message "palindromes in directory".
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

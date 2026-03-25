@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_07_printf_literals.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates basic printf functionality by calculating
+ *   and displaying the sum of two integer literals (21 + 31) within a
+ *   formatted output string.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

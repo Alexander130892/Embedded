@@ -1,14 +1,16 @@
 /*
- * File:    poly_mul.c
- * Author:  Alexander Vindelinckx
- * Date:    16-3-2026
+ * File:    Ex_23_largenumbers.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Polynomial addition and multiplication.
- *   Coefficients stored ascending: p[0] + p[1]*x + p[2]*x^2 + ...
- *   Max degree of g and h is K. Result f has max degree 2K (size 2K+1).
+ *   This file implements arbitrary precision arithmetic for large
+ *   numbers by storing each digit in separate array elements and
+ *   performing addition and multiplication operations with manual
+ *   carry handling. It demonstrates these operations by adding and
+ *   multiplying predefined large integers and displaying the results
+ *   in a human-readable format.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -4,15 +4,13 @@
  * Date:    25-3-2026
  *
  * Description:
- *   This file demonstrates date packing by compressing a date into a
- *   16-bit unsigned short (5 bits for day, 4 bits for month, 7 bits
- *   for year) and implements functionality to unpack the date and
- *   calculate the next day. The program takes user input for a date,
- *   packs it into the compressed format, then displays both the
- *   original date after unpacking and the next day's date.
+ *   This C program demonstrates date packing by compressing a date
+ *   (day/month/year) into a 16-bit unsigned short using bit
+ *   manipulation, then implements a next_day function to calculate the
+ *   following day while keeping the date in packed format. The program
+ *   takes user input for a date, shows the original and unpacked
+ *   dates, and displays the next day after incrementing.
  */
-
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

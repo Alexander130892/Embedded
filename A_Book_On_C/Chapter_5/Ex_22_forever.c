@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_22_forever.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program creates an infinite loop that repeatedly calls
+ *   function `f()`, which prints an incrementing counter and
+ *   terminates the program when the counter reaches 17.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_14_prime_factor.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file computes and displays the prime factorization of
+ *   integers from 0 to 99, showing each number as a product of its
+ *   prime factors separated by " x ". It handles edge cases by
+ *   printing "invalid input" for numbers less than 1 and "1" for the
+ *   number 1.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

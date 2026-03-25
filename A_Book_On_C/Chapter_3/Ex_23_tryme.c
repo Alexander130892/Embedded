@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_23_tryme.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file reads characters from standard input using getchar() and
+ *   echoes them to standard output using putchar() until EOF is
+ *   reached, essentially functioning as a simple character echo
+ *   program with a meaningless "-1;" statement that has no effect.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_02_sin2cos2.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file calculates and prints the value of sin²(x) + cos²(x) for
+ *   x values from 0 to 2π in increments of 0.1, demonstrating the
+ *   fundamental trigonometric identity that this expression always
+ *   equals 1.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

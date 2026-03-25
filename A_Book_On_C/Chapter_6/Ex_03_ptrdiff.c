@@ -1,12 +1,13 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_03_ptrdiff.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file demonstrates the use of the ptrdiff_t data type by
+ *   calculating and printing the pointer differences between two
+ *   integer pointers and between a pointer and a null pointer.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stddef.h>

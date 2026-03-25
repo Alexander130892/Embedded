@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_04_char_abc_count copy.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This program reads characters from standard input and counts how
+ *   many are letters 'a', 'b', or 'c' (case-insensitive) versus all
+ *   other characters, then displays the totals. The program contains
+ *   unused constants and comments that don't match its actual
+ *   functionality.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

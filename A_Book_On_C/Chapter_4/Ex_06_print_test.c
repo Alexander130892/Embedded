@@ -1,12 +1,14 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_06_print_test.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file tests the behavior of the logical NOT operator (!) in C
+ *   by printing the results of various expressions involving negation
+ *   of characters and integers with different combinations of logical
+ *   and arithmetic operators.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

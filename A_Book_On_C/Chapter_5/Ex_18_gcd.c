@@ -1,12 +1,15 @@
 /*
- * File:    filename.c
- * Author:  Alexander Vindelinckx
- * Date:    26-2-2026
+ * File:    Ex_18_gcd.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *   Brief description of what this file contains or does.
+ *   This file calculates the greatest common divisor (GCD) of two
+ *   integers using the Euclidean algorithm, with both functions
+ *   (gcd_rec and gcd_it) actually implemented iteratively despite the
+ *   misleading function names. The program demonstrates the GCD
+ *   calculation by finding the GCD of 48 and 24, which outputs 24.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

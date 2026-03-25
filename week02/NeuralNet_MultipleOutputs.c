@@ -1,15 +1,16 @@
 /*
  * File:    NeuralNet_MultipleOutputs.c
- * Author:  Alexander Vindelinckx
- * Date:    21-3-2026
+ * Author:  Alexander130892
+ * Date:    25-3-2026
  *
  * Description:
- *      Create a neural network that can train the logic behaviour of OR/XOR/AND/NAND gates (2 inputs -> 5 output)
- *      Stop as soon as succesrate > 90 percent
- *      --> Add hidden layer to solve XOR
- *      --> solve all possible logic gates in one network (5 outputs)
+ *   This C file implements a neural network with one hidden layer that
+ *   simultaneously learns to compute five different Boolean logic
+ *   operations (OR, XOR, NOR, AND, NAND) from the same two binary
+ *   inputs. The network uses backpropagation with sigmoid activation
+ *   to train on all four possible input combinations until achieving a
+ *   90% success rate across all operations.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>
