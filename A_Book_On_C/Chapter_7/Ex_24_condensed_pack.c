@@ -1,3 +1,16 @@
+/*
+ * File:    Ex_24_condensed_pack.c
+ * Author:  Alexander130892
+ * Date:    25-3-2026
+ *
+ * Description:
+ *   This C program packs four individual char values into a single
+ *   unsigned int by bit-shifting and combining them, then prints the
+ *   resulting 32-bit value in binary format with spaces separating
+ *   each byte. The pack function demonstrates a condensed one-line
+ *   approach to combining multiple bytes into a larger integer type.
+ */
+
 
 //write pack into one line
 #include <stdio.h>
