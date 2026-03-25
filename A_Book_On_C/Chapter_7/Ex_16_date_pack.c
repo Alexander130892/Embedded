@@ -18,9 +18,9 @@ int main(void){ //user input not proteced
     printf("give the date: (dd MM YY):\n");
     scanf("%d%d%d", &day, &month, &year);
     printf("The date before packing is: %d/%d/%d\n", day, month, year);
-    unsigned short packed = pack_date(day, month, year);
+    unsigned short pack = pack_date(day, month, year);
     int unpacked[3];
-    unpack_date(packed, unpacked); 
+    unpack_date(pack, unpacked); 
     printf("The date after packing is: %d/%d/%d\n", unpacked[0], unpacked[1], unpacked[2]);
 
     return EXIT_SUCCESS;

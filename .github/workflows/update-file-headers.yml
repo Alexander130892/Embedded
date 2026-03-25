@@ -1,0 +1,68 @@
+name: Update File Headers
+
+on:
+  push:
+    paths:
+      - "**.c"
+      - "**.h"
+
+jobs:
+  update-headers:
+    runs-on: ubuntu-latest
+
+    # Prevent the commit this action makes from re-triggering itself
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can diff against the previous commit
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Detect changed C/H files
+        id: changed
+        run: |
+          # List files changed in this push that still exist (not deleted)
+          git diff --name-only --diff-filter=d HEAD~1 HEAD \
+            | grep -E '\.(c|h)$' > changed_files.txt || true
+
+          echo "Changed files:"
+          cat changed_files.txt
+
+          # Expose as a step output (newline → space for later use)
+          echo "files=$(cat changed_files.txt | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Update file headers
+        if: steps.changed.outputs.files != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AUTHOR_NAME: ${{ github.event.pusher.name }}
+        run: |
+          python .github/scripts/update_headers.py changed_files.txt
+
+      - name: Commit updated headers
+        if: steps.changed.outputs.files != ''
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if the script actually changed something
+          if git diff --quiet; then
+            echo "No header changes needed."
+          else
+            git add -A
+            git commit -m "chore: update file headers [skip ci]"
+            git push
+          fi
