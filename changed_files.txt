@@ -1,1 +1,1 @@
-A_Book_On_C/Chapter_7/Ex_21_random_cards.c
+week01/fizzbuzz.c
