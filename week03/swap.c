@@ -1,10 +1,14 @@
 /*
- * File:    strlen_.c
+ * File:    swap.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   Exercise: swap two integers using pointers, without a temp variable
+ *   This file demonstrates swapping two integer values using an
+ *   XOR-based bitwise operation that avoids using temporary variables.
+ *   The swap function includes a guard against self-assignment and
+ *   uses three XOR operations to exchange the values of two integers
+ *   passed by reference.
  */
  //Libraries
 #include <stdio.h>

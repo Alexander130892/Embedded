@@ -1,10 +1,14 @@
 /*
- * File:    strlen_.c
+ * File:    sensor_vals.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   pack/unpack a sensor value into a byte using shifts and masks
+ *   This file demonstrates packing and unpacking of two 4-bit sensor
+ *   values into a single 8-bit byte for efficient data storage or
+ *   transmission. It includes utility functions to combine two sensor
+ *   readings into one byte, extract them back to separate values, and
+ *   display their binary representations.
  */
  //Libraries
 #include <stdio.h>
