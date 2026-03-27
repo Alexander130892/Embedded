@@ -51,8 +51,8 @@
 - [x] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
 - [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
 - [x] GDB practice: set breakpoints, inspect variables, step through pointer code
-- [ ] Exercise: pack/unpack a sensor value into a byte using shifts and masks
-- [ ] Exercise: swap two integers using pointers, without a temp variable
+- [x] Exercise: pack/unpack a sensor value into a byte using shifts and masks
+- [x] Exercise: swap two integers using pointers, without a temp variable
 - [ ] Commit exercises to GitHub under `week03/`
 
 ---
