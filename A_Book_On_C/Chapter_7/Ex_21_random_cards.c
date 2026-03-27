@@ -1,14 +1,14 @@
 /*
  * File:    Ex_21_random_cards.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file simulates dealing a 5-card poker hand by randomly
- *   selecting unique playing cards from a standard 52-card deck and
- *   displaying the results. The program ensures no duplicate cards are
- *   drawn by checking each new random card against previously selected
- *   ones before adding it to the hand.
+ *   This program simulates drawing a random 5-card poker hand by
+ *   generating random playing cards without replacement from a
+ *   standard 52-card deck. It ensures no duplicate cards are drawn by
+ *   checking each new random card against previously drawn cards, then
+ *   displays the final hand with card names and suits.
  */
 //write pack into one line
 #include <stdio.h>

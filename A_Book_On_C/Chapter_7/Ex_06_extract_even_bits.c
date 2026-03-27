@@ -1,13 +1,13 @@
 /*
  * File:    Ex_06_extract_even_bits.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file extracts all even-positioned bits (0, 2, 4, ..., 30)
- *   from a 32-bit integer and packs them into a 16-bit result, with
- *   two different implementations: an optimized bit-manipulation
- *   approach using masks and shifts, and a simpler iterative method.
+ *   This file extracts the even-positioned bits (positions 0, 2, 4,
+ *   ..., 30) from a 32-bit integer and packs them into a 16-bit
+ *   result, with one function using bit manipulation techniques and
+ *   another using a loop-based approach.
  */
 #include <stdint.h>
 

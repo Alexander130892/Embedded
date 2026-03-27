@@ -1,15 +1,15 @@
 /*
  * File:    Ex_07_intstring.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates Binary Coded Decimal (BCD) packing and
- *   unpacking by converting a string of digits into a compact 32-bit
- *   representation where each digit occupies 4 bits, then recovering
- *   the original string. The program includes utility functions for
- *   bit manipulation and supports processing longer strings through
- *   multi-chunk packing.
+ *   This file demonstrates Binary Coded Decimal (BCD) encoding by
+ *   packing decimal digit strings into compact binary representations
+ *   and then unpacking them back to verify the process works
+ *   correctly. It includes functions for single 32-bit BCD
+ *   packing/unpacking as well as multi-chunk processing for longer
+ *   strings.
  */
 //Libraries
 #include <stdio.h>

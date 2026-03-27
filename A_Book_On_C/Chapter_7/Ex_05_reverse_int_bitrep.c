@@ -1,14 +1,15 @@
 /*
  * File:    Ex_05_reverse_int_bitrep.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates printing the binary representation of an
- *   integer in both normal and reverse bit order. It uses the
- *   hexadecimal value 0xAAAA as input and displays its bits from
- *   most-to-least significant and then from least-to-most significant,
- *   with spaces separating each byte.
+ *   This file demonstrates bit manipulation by printing the binary
+ *   representation of an integer (0xAAAA) in both normal and reverse
+ *   bit order. The program uses bitwise operations and masking to
+ *   display bits from most-significant-bit-first and
+ *   least-significant-bit-first, with spaces separating each byte for
+ *   readability.
  */
 //Libraries
 #include <stdio.h>
