@@ -1,15 +1,15 @@
 /*
  * File:    Ex_03_cyclic_shift.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file implements a cyclic (circular) left shift operation on
- *   16-bit short integers, where bits that fall off the left end wrap
- *   around to the right end. It includes a utility function to print
- *   the binary representation of numbers and demonstrates the cyclic
- *   shift with test values, handling both positive and negative shift
- *   amounts.
+ *   This C program implements a cyclic left shift operation on 16-bit
+ *   unsigned short integers, where bits that are shifted out from the
+ *   left end wrap around to the right end. It includes a utility
+ *   function to print the binary representation of numbers and
+ *   demonstrates the cyclic shift with test values, handling both
+ *   positive and negative shift amounts.
  */
 //Libraries
 #include <stdio.h>

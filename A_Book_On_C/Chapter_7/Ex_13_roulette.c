@@ -1,15 +1,15 @@
 /*
  * File:    Ex_13_roulette.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file implements a simple roulette gambling game where the
- *   player starts with a $5 budget and can bet on specific numbers
- *   (0-35), even numbers, or odd numbers until they run out of money.
- *   The game uses random number generation to simulate roulette spins,
- *   with payouts of 2:1 for even/odd bets and 35:1 for exact number
- *   matches.
+ *   This file implements a roulette gambling game where the player
+ *   starts with $5 and can bet on specific numbers (0-35), even, or
+ *   odd outcomes, with payouts of 35:1 for number bets and 2:1 for
+ *   even/odd bets until they run out of money. The game uses random
+ *   number generation to simulate roulette spins and tracks the
+ *   player's budget across multiple rounds.
  */
 //Libraries
 #include <stdio.h>

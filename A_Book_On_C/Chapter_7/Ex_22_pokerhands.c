@@ -1,13 +1,15 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_22_pokerhands.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates packing four char values into a single
- *   unsigned int using bit shifting operations, then prints the binary
- *   representation of the packed result with spaces separating each
- *   byte.
+ *   This C program simulates drawing 100,000 poker hands and
+ *   calculates the probability of getting a flush, straight, or full
+ *   house by randomly generating 5-card hands and checking for these
+ *   specific poker combinations. It prints the first occurrence of
+ *   each hand type and displays the final percentage statistics for
+ *   each combination.
  */
 //write pack into one line
 #include <stdio.h>

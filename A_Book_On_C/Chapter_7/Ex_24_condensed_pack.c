@@ -1,13 +1,13 @@
 /*
  * File:    Ex_24_condensed_pack.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This program demonstrates bit manipulation by packing four
- *   individual char values into a single unsigned integer using left
- *   shifts and bitwise OR operations, then prints the resulting bit
- *   pattern with spaces between each byte.
+ *   This C program demonstrates bit packing by combining four
+ *   individual char values into a single unsigned integer using bit
+ *   shifting operations, then displays the resulting packed value in
+ *   binary format with spaces separating each byte.
  */
 //write pack into one line
 #include <stdio.h>

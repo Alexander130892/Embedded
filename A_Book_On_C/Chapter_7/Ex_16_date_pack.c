@@ -1,15 +1,14 @@
 /*
  * File:    Ex_16_date_pack.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This program demonstrates bit packing and unpacking of date
- *   components by compressing a day, month, and year into a single
- *   16-bit unsigned short integer and then extracting them back. It
- *   uses bitwise operations to pack the date into 5 bits for day, 4
- *   bits for month, and 7 bits for year, then unpacks the data using
- *   bit masks to verify the process worked correctly.
+ *   This file demonstrates bit packing techniques by compressing a
+ *   date (day, month, year) into a single 16-bit unsigned short
+ *   integer and then unpacking it back to its original components. The
+ *   program uses bitwise operations to store the day in 5 bits, month
+ *   in 4 bits, and year in 7 bits within the packed format.
  */
 //Libraries
 #include <stdio.h>

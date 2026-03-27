@@ -1,13 +1,14 @@
 /*
  * File:    Ex_18_booleans.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates boolean operations by extracting the first
- *   4 bits from numbers 0-15 and displaying truth tables for three
- *   different logical functions: OR of all bits, AND of all bits, and
- *   a complex boolean expression involving negations and conditionals.
+ *   This file demonstrates boolean operations and bit manipulation by
+ *   extracting the four least significant bits from numbers 0-15 and
+ *   displaying truth tables for three different boolean functions:
+ *   logical OR of all bits, logical AND of all bits, and a complex
+ *   expression involving negation and conditional logic.
  */
 //Libraries
 #include <stdio.h>
