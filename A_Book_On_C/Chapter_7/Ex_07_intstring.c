@@ -4,12 +4,12 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates Binary Coded Decimal (BCD) encoding by
- *   packing decimal digit strings into compact binary representations
- *   and then unpacking them back to verify the process works
- *   correctly. It includes functions for single 32-bit BCD
- *   packing/unpacking as well as multi-chunk processing for longer
- *   strings.
+ *   This C program demonstrates Binary Coded Decimal (BCD) packing and
+ *   unpacking, converting decimal digit strings into compact 32-bit
+ *   representations where each digit occupies 4 bits, then recovering
+ *   the original string. It includes utility functions for multi-chunk
+ *   BCD processing and bit visualization, with the main function
+ *   showcasing the pack/unpack cycle on the string "12345678".
  */
 //Libraries
 #include <stdio.h>

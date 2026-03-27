@@ -4,12 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates bit manipulation by printing the binary
- *   representation of an integer (0xAAAA) in both normal and reverse
- *   bit order. The program uses bitwise operations and masking to
- *   display bits from most-significant-bit-first and
- *   least-significant-bit-first, with spaces separating each byte for
- *   readability.
+ *   This file demonstrates two different methods of printing the
+ *   binary representation of an integer: one that prints bits from
+ *   most significant to least significant bit (normal order), and
+ *   another that prints from least significant to most significant bit
+ *   (reversed order).
  */
 //Libraries
 #include <stdio.h>

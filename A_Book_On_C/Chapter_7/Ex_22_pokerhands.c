@@ -4,12 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program simulates drawing 100,000 poker hands and
- *   calculates the probability of getting a flush, straight, or full
- *   house by randomly generating 5-card hands and checking for these
- *   specific poker combinations. It prints the first occurrence of
- *   each hand type and displays the final percentage statistics for
- *   each combination.
+ *   This C program simulates dealing 100,000 random 5-card poker hands
+ *   and calculates the statistical probabilities of getting a flush,
+ *   straight, and full house by counting occurrences and displaying
+ *   the percentages. It also prints the first occurrence of each hand
+ *   type during the simulation.
  */
 //write pack into one line
 #include <stdio.h>

@@ -4,10 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program demonstrates the use of enums by defining a Month
- *   enumeration and displaying a table that shows each month paired
- *   with its previous month, with special handling for January
- *   wrapping around to December.
+ *   This C program demonstrates the use of enums by defining months of
+ *   the year and displaying each month alongside its previous month,
+ *   with special handling to wrap December to January. It prints a
+ *   formatted table showing current and previous month pairs for all
+ *   12 months.
  */
 //Libraries
 #include <stdio.h>

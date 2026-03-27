@@ -4,12 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program implements a cyclic left shift operation on 16-bit
- *   unsigned short integers, where bits that are shifted out from the
- *   left end wrap around to the right end. It includes a utility
- *   function to print the binary representation of numbers and
- *   demonstrates the cyclic shift with test values, handling both
- *   positive and negative shift amounts.
+ *   This file implements a cyclic left shift operation on unsigned
+ *   short integers, where bits that are shifted out from the left are
+ *   rotated back in from the right, and includes a utility function to
+ *   print the binary representation of the values for demonstration
+ *   purposes.
  */
 //Libraries
 #include <stdio.h>

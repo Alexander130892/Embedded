@@ -4,12 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program demonstrates the difference in behavior between
- *   right-shifting signed and unsigned integers, specifically showing
- *   that signed integers perform arithmetic right shift (filling with
- *   1s for negative numbers) while unsigned integers perform logical
- *   right shift (filling with 0s). It includes utility functions for
- *   cyclic bit shifting and printing binary representations of values.
+ *   This file demonstrates the behavior of right bit-shifting
+ *   operations on signed versus unsigned integers, specifically
+ *   showing whether zeros or ones are shifted in during the operation.
+ *   It includes utility functions for cyclic bit shifting and printing
+ *   binary representations of values.
  */
 //Libraries
 #include <stdio.h>

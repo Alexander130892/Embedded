@@ -4,12 +4,12 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program demonstrates date packing by compressing a date
- *   (day/month/year) into a 16-bit unsigned short using bit
- *   manipulation, then calculates and displays the next day. The
- *   program packs dates into a compact binary format using 5 bits for
- *   day, 4 bits for month, and 7 bits for year, though it has a bug in
- *   the leap year handling for February.
+ *   This C program demonstrates date packing by compressing day,
+ *   month, and year values into a single 16-bit unsigned short integer
+ *   using bit manipulation, then implements a next_day function to
+ *   calculate the following day. The program takes a date input, packs
+ *   it into compressed format, unpacks it to verify the process,
+ *   calculates the next day, and displays all results.
  */
 //Libraries
 #include <stdio.h>

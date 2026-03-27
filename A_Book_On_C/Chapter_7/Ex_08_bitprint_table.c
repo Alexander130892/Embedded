@@ -4,12 +4,12 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This file generates a table showing the binary representation of
- *   powers of 2 (from 2^0 to 2^31) alongside their corresponding bit
- *   masks (power of 2 minus 1), then demonstrates the bitprint
- *   function with a multi-character constant. The bitprint function
- *   displays the binary representation of integers with byte-separated
- *   formatting.
+ *   This file prints a table showing the binary representation of
+ *   powers of 2 (from 2^0 to 2^31) alongside their corresponding masks
+ *   (power minus 1), then demonstrates the bitprint function with a
+ *   multi-character constant. The bitprint function displays the
+ *   binary representation of integers with spaces separating each byte
+ *   for readability.
  */
 //Libraries
 #include <stdio.h>

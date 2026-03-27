@@ -4,11 +4,12 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This file demonstrates boolean operations and bit manipulation by
- *   extracting the four least significant bits from numbers 0-15 and
- *   displaying truth tables for three different boolean functions:
- *   logical OR of all bits, logical AND of all bits, and a complex
- *   expression involving negation and conditional logic.
+ *   This file demonstrates Boolean logic operations on 4-bit values by
+ *   extracting individual bits and displaying truth tables for OR,
+ *   AND, and a complex Boolean expression across all possible 16 input
+ *   combinations. It serves as an educational example showing how
+ *   Boolean operators work with bit manipulation and logical
+ *   expressions.
  */
 //Libraries
 #include <stdio.h>

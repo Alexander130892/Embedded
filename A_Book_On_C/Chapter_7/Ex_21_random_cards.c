@@ -4,11 +4,10 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This program simulates drawing a random 5-card poker hand by
- *   generating random playing cards without replacement from a
- *   standard 52-card deck. It ensures no duplicate cards are drawn by
- *   checking each new random card against previously drawn cards, then
- *   displays the final hand with card names and suits.
+ *   This program simulates drawing 5 random, unique playing cards from
+ *   a standard deck and displays them as a hand. It uses rejection
+ *   sampling to ensure no duplicate cards are drawn by repeatedly
+ *   generating random card combinations until a new card is found.
  */
 //write pack into one line
 #include <stdio.h>

@@ -4,12 +4,11 @@
  * Date:    27-3-2026
  *
  * Description:
- *   This C program implements a bitwise majority gate function that
- *   returns a value where each bit position is set to 1 if at least
- *   two of the three input values have a 1 in that position. The
- *   program demonstrates this by applying the majority function to
- *   three hardcoded short integers and printing both their binary
- *   representations and the resulting majority value.
+ *   This C program implements a bitwise majority function that returns
+ *   a value where each bit position is set to 1 if at least two of the
+ *   three input values have 1 in that position, and includes a utility
+ *   function to print binary representations of the values for
+ *   visualization.
  */
 //Libraries
 #include <stdio.h>
