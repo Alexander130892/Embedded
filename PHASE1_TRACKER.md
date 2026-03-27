@@ -48,8 +48,10 @@
 > ~10 hrs | R1 Chapter 6 (deep dive)
 
 - [x] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
-- [ ] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
-- [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
+- [x] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
+- [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
+- [x] GDB practice: set breakpoints, inspect variables, step through pointer code
+- [ ] Exercise: pack/unpack a sensor value into a byte using shifts and masks
 - [ ] Exercise: swap two integers using pointers, without a temp variable
 - [ ] Commit exercises to GitHub under `week03/`
 
@@ -59,10 +61,9 @@
 > ~10 hrs | R1 Chapters 7 + 9
 - [ ] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
 - [ ] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
-- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [ ] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
 - [ ] Exercise: model a hardware register using a struct with bitfields
-- [ ] Exercise: pack/unpack a sensor value into a byte using shifts and masks
+- [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
 - [ ] Commit exercises to GitHub under `week04/`
 
 ---
@@ -70,14 +71,13 @@
 #### Week 5 — C Consolidation + Toolchain Deep Dive
 > ~10 hrs | R1 Ch.8 review + R7 + GCC/GDB practice
 
-
+- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
-- [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
 - [ ] Study `volatile` keyword — why it matters in embedded C
 - [ ] Study `static` — file scope vs function scope meanings
 - [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
 - [ ] Write a Makefile that compiles a multi-file C project on the host
-- [ ] GDB practice: set breakpoints, inspect variables, step through pointer code
+
 - [ ] Complete one practice problem set from R2 (UT Austin exercises)
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
