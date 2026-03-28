@@ -1,14 +1,14 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_04_a_b_c.h
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This header file defines a macro A_B_C that expands to a complete
+ *   main function which prints "A Big Cheery "hello"!" to the console.
+ *   The macro uses line continuation backslashes to pack the entire
+ *   function definition into what appears as a single line when the
+ *   macro is invoked.
  */
 //write pack into one line
 

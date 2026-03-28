@@ -1,14 +1,15 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_26_quicksort_inorder.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This file implements a quicksort algorithm that uses a
+ *   median-of-three pivot selection strategy and tests its performance
+ *   on an array of 1 million random integers. The program demonstrates
+ *   the algorithm's efficiency by running quicksort multiple times on
+ *   the already-sorted array and printing sample elements from the
+ *   beginning, middle, and end of the array before and after sorting.
  */
 //write pack into one line
 

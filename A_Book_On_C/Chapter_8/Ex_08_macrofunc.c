@@ -1,14 +1,14 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_08_macrofunc.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This file demonstrates C macro functionality by defining a macro
+ *   PRN3 that uses string concatenation to print three variables with
+ *   their names and values, though the main function only calls
+ *   character case conversion functions and doesn't actually use the
+ *   defined macro.
  */
 //write pack into one line
 #include <ctype.h>

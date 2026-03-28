@@ -1,14 +1,15 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_27_quicksort_5_element_pivot.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This file implements a quicksort algorithm that uses a 5-element
+ *   median-of-five pivot selection strategy, sampling five
+ *   evenly-spaced elements from the array and selecting their median
+ *   as the pivot to improve performance. The implementation appears to
+ *   sort in descending order based on the modified comparison
+ *   operators in the swap and partition logic.
  */
 //write pack into one line
 

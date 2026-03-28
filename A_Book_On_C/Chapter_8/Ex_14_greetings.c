@@ -1,14 +1,13 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_14_greetings.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This file demonstrates C preprocessor string manipulation by
+ *   defining a macro that converts three parameter names into a
+ *   formatted greeting string using the stringizing operator (#),
+ *   printing "Alice, Bob, and Carole: Hello!" when executed.
  */
 //write pack into one line
 #include <stdio.h>

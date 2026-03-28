@@ -1,14 +1,13 @@
 /*
- * File:    Ex_24_condensed_pack.c
+ * File:    Ex_03_prn3.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    28-3-2026
  *
  * Description:
- *   This C program packs four individual char values into a single
- *   unsigned integer using bit shifting operations, then displays the
- *   resulting packed value in binary format with spaces separating
- *   each byte. The pack function demonstrates a condensed one-line
- *   approach to combining multiple bytes into a larger data type.
+ *   This file demonstrates a C macro that prints the names and values
+ *   of three float variables in a formatted string, using the
+ *   stringification operator (#) to convert variable names into string
+ *   literals for display.
  */
 //write pack into one line
 #include <stdio.h>
