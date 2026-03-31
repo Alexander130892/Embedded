@@ -45,7 +45,7 @@
 ---
 
 #### Week 3 — Pointers + Bit Manipulation
-> ~10 hrs | R1 Chapter 6 (deep dive)
+> ~10 hrs | R1 Chapter 6 +7 (deep dive)
 
 - [x] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
 - [x] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
@@ -53,14 +53,14 @@
 - [x] GDB practice: set breakpoints, inspect variables, step through pointer code
 - [x] Exercise: pack/unpack a sensor value into a byte using shifts and masks
 - [x] Exercise: swap two integers using pointers, without a temp variable
-- [ ] Commit exercises to GitHub under `week03/`
+- [x] Commit exercises to GitHub under `week03/`
 
 ---
 
 #### Week 4 — Structs + Memory Lay-out
-> ~10 hrs | R1 Chapters 7 + 9
-- [ ] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
-- [ ] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
+> ~10 hrs | R1 Chapters 8 + 9
+- [x] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
+- [x] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
 - [ ] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
 - [ ] Exercise: model a hardware register using a struct with bitfields
 - [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
@@ -69,15 +69,13 @@
 ---
 
 #### Week 5 — C Consolidation + Toolchain Deep Dive
-> ~10 hrs | R1 Ch.8 review + R7 + GCC/GDB practice
-
+> ~10 hrs | R1 Ch.10 review + R7 
 - [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [ ] Study `volatile` keyword — why it matters in embedded C
 - [ ] Study `static` — file scope vs function scope meanings
 - [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
 - [ ] Write a Makefile that compiles a multi-file C project on the host
-
 - [ ] Complete one practice problem set from R2 (UT Austin exercises)
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
