@@ -1,12 +1,16 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_28_double_ended_queue.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file implements a double-ended queue (deque) data structure
+ *   using a fixed-size array, allowing insertion and removal of
+ *   elements from both the front and rear ends. The implementation
+ *   uses a bidirectional approach starting from the middle of the
+ *   array, expanding towards both ends, and includes comprehensive
+ *   test cases demonstrating all operations including overflow and
+ *   underflow conditions.
  */
  //Libraries
 #include <stdio.h>

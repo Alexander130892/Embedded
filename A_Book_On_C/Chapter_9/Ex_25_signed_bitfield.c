@@ -1,12 +1,15 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_25_signed_bitfield.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates the overflow behavior of signed bitfields
+ *   by continuously incrementing and printing two bitfield members (a
+ *   3-bit and 4-bit field) in an infinite loop. It shows how signed
+ *   bitfields wrap around when they exceed their maximum representable
+ *   values, with the 3-bit field cycling through values -4 to 3 and
+ *   the 4-bit field cycling through values -8 to 7.
  */
  //Libraries
 #include <stdio.h>

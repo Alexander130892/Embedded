@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_21_BCD.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates Binary-Coded Decimal (BCD) encoding by
+ *   converting between standard binary integers and a packed BCD
+ *   representation using bit fields. It converts the decimal number
+ *   12345678 to BCD format, displays each decimal digit separately,
+ *   then converts it back to verify the round-trip conversion.
  */
  //Libraries
 #include <stdio.h>

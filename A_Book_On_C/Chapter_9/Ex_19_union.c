@@ -1,12 +1,13 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_19_union.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates C union declarations, showing both a simple
+ *   union with multiple data types sharing memory space and a typedef
+ *   union that uses bit fields to represent a status register, but
+ *   contains no functional implementation in the main function.
  */
  //Libraries
 #include <stdio.h>

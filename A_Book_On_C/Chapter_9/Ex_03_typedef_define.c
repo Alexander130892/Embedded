@@ -1,12 +1,15 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_03_typedef_define.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates the difference between using `#define` and
+ *   `typedef` to create a string alias for `char*`, showing how
+ *   `#define` can cause unexpected behavior when declaring arrays of
+ *   strings. The program prints a sentence by concatenating string
+ *   arrays, but the `#define` approach would cause array `b` to be
+ *   declared as `char` instead of `char*` if uncommented.
  */
  //Libraries
 #include <stdio.h>

@@ -1,12 +1,15 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_10_restaurants.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This program manages a database of 20 restaurants with different
+ *   food types and costs, then filters and displays all hamburger
+ *   restaurants sorted by their average cost in ascending order. The
+ *   program uses a struct to store restaurant data and includes a
+ *   comparison function for sorting the entire list before filtering
+ *   by the specified food type.
  */
  //Libraries
 #include <stdio.h>

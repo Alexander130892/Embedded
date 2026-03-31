@@ -1,12 +1,13 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_27_struct_equality.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates struct assignment and the fact that direct
+ *   equality comparison between struct instances is not allowed in C,
+ *   showing that while structs can be assigned to each other (copying
+ *   all members), they cannot be compared using the == operator.
  */
  //Libraries
 #include <stdio.h>

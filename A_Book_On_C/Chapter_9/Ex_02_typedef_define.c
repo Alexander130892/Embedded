@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_02_typedef_define.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates the difference between `typedef` and
+ *   `#define` by showing how `typedef` creates a true type alias that
+ *   can be shadowed by local variables, while `#define` performs
+ *   simple text substitution that would cause compilation errors in
+ *   the same scenario.
  */
  //Libraries
 #include <stdio.h>

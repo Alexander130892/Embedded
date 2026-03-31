@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_04_typedef_add_matrix.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This C program demonstrates matrix addition using a custom typedef
+ *   for a 5x5 integer matrix, adding two predefined 3x3 matrices
+ *   element-wise and printing the result. The program uses typedef to
+ *   create a convenient matrix data type and includes functions for
+ *   matrix addition and printing.
  */
  //Libraries
 #include <stdio.h>

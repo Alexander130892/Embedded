@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_01_typedef_define.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates the use of `#define` to create a type alias
+ *   for `float` as `DOLLARS`, calculating and displaying a simple
+ *   interest calculation on a monetary amount. It shows an alternative
+ *   to using `typedef` (which is commented out) for creating custom
+ *   type names in C.
  */
  //Libraries
 #include <stdio.h>

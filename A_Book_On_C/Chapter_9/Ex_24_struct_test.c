@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_24_struct_test.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates bit field behavior in C structures by
+ *   assigning incrementing values to bit fields of different widths
+ *   (1, 2, and 3 bits) and printing how the values are truncated due
+ *   to overflow when they exceed the maximum value each bit field can
+ *   hold.
  */
  //Libraries
 #include <stdio.h>

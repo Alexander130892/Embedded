@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_07_complex_add.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates complex number addition using a custom
+ *   complex struct, implementing the operation through both
+ *   pass-by-value and pass-by-reference functions. It creates two
+ *   complex numbers, adds them using both methods, and displays the
+ *   results to show different parameter passing techniques in C.
  */
  //Libraries
 #include <stdio.h>

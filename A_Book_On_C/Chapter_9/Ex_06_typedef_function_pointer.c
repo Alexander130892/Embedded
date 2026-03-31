@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_06_typedef_function_pointer.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file demonstrates how to create and use typedef declarations
+ *   for function pointers in C, specifically defining a type for
+ *   functions that take a double parameter and return a double, then
+ *   using it to call the sin() and cos() math functions with PI as the
+ *   argument.
  */
  //Libraries
 #include <stdio.h>

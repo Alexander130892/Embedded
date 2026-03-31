@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_26_print_test.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This file compares the memory sizes of two bit-field structures
+ *   where one uses a zero-width bit-field separator and the other
+ *   doesn't, printing the ratio of their sizes as a floating-point
+ *   number. It demonstrates how zero-width bit-fields force alignment
+ *   to the next storage unit boundary, affecting structure size.
  */
  //Libraries
 #include <stdio.h>

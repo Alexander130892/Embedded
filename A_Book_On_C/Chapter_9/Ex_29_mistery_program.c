@@ -1,12 +1,15 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_29_mistery_program.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This program uses a union and endian-specific hexadecimal
+ *   constants to encode and decode the string "Hello, world!" by
+ *   storing it as 32-bit integers and then interpreting the memory as
+ *   characters. The program demonstrates how byte order affects the
+ *   representation of multi-byte data in memory by printing the
+ *   decoded message.
  */
  //Libraries
 #include <stdio.h>

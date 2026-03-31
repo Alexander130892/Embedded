@@ -1,12 +1,15 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_22_BooleanTruthtable.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This C program generates and displays truth tables for three
+ *   different boolean functions operating on 4-bit values (nibbles),
+ *   including OR, AND, and a complex boolean expression. It uses a
+ *   union structure to access individual bits and systematically
+ *   evaluates each function across all 16 possible 4-bit input
+ *   combinations.
  */
  //Libraries
 #include <stdio.h>

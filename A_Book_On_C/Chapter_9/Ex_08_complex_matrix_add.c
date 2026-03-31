@@ -1,12 +1,14 @@
 /*
- * File:    Ex_01_pow_xn.c
+ * File:    Ex_08_complex_matrix_add.c
  * Author:  Alexander130892
- * Date:    25-3-2026
+ * Date:    31-3-2026
  *
  * Description:
- *   This file implements a custom power function that calculates x
- *   raised to the power of n using iterative multiplication, and
- *   demonstrates it by computing 3.5^7.
+ *   This C program performs addition of two 3x5 matrices containing
+ *   complex numbers (with real and imaginary parts) and displays the
+ *   result. The program defines a complex number structure, implements
+ *   matrix addition by adding corresponding complex elements, and
+ *   includes functions to print matrices and add complex numbers.
  */
  //Libraries
 #include <stdio.h>
