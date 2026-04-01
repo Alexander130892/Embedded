@@ -61,19 +61,21 @@
 > ~10 hrs | R1 Chapters 8 + 9
 - [x] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
 - [x] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
-- [ ] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
-- [ ] Exercise: model a hardware register using a struct with bitfields
-- [ ] Exercise: implement a simple stack (push/pop) using a fixed-size array + pointer
-- [ ] Commit exercises to GitHub under `week04/`
+- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
+- [x] Study `static` — file scope vs function scope meanings
+- [x] Study `volatile` keyword — why it matters in embedded C
+- [x] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
+- [x] Exercise: model a hardware register using a struct with bitfields
+- [x] Exercise: implement a simpledgfd stack (push/pop) using a fixed-size array + pointer
+- [x] Commit exercises to GitHub under `week04/`
 
 ---
 
 #### Week 5 — C Consolidation + Toolchain Deep Dive
-> ~10 hrs | R1 Ch.10 review + R7 
-- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
+> ~10 hrs | R1 Ch.10-11-12 review + R7 
+- [ ] R1 Ch.11 File handling
+- [ ] R1 Ch.12 Advanced applications
 - [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
-- [ ] Study `volatile` keyword — why it matters in embedded C
-- [ ] Study `static` — file scope vs function scope meanings
 - [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
 - [ ] Write a Makefile that compiles a multi-file C project on the host
 - [ ] Complete one practice problem set from R2 (UT Austin exercises)
@@ -192,7 +194,7 @@
 | 1 | Environment Setup + C Basics | ✅ Done |
 | 2 | Functions + Arrays | ✅ Done |
 | 3 | Pointers + Memory Layout | ✅ Done |
-| 4 | Structs + Bit Manipulation | ⬜ Not started |
+| 4 | Structs + Bit Manipulation | ✅ Done |
 | 5 | C Consolidation + Toolchain | ⬜ Not started |
 | 6 | STM32 Architecture + GPIO | ⬜ Not started |
 | 7 | UART TX | ⬜ Not started |
