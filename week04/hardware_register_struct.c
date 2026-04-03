@@ -1,16 +1,16 @@
 /*
- * File:    sensor_vals.c
+ * File:    hardware_register_struct.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    3-4-2026
  *
  * Description:
- *   This file demonstrates packing and unpacking of two 4-bit sensor
- *   values into a single 8-bit byte for efficient data storage or
- *   transmission. It includes utility functions to combine two sensor
- *   readings into one byte, extract them back to separate values, and
- *   display their binary representations.
+ *   This file demonstrates how to use a C union with bit fields to
+ *   model a hardware register, allowing access to the same 16-bit data
+ *   either as a raw value or as individual bit fields (ACK, INT flags
+ *   and an 8-bit MEM field). It tests various operations including
+ *   setting individual bits, boundary conditions, and overflow
+ *   behavior to verify the bit field implementation works correctly.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

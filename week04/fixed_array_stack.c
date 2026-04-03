@@ -1,16 +1,16 @@
 /*
- * File:    sensor_vals.c
+ * File:    fixed_array_stack.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    3-4-2026
  *
  * Description:
- *   This file demonstrates packing and unpacking of two 4-bit sensor
- *   values into a single 8-bit byte for efficient data storage or
- *   transmission. It includes utility functions to combine two sensor
- *   readings into one byte, extract them back to separate values, and
- *   display their binary representations.
+ *   This file implements a stack data structure using a fixed-size
+ *   array with a maximum capacity of 100 integer elements, providing
+ *   standard stack operations (push, pop, top, isEmpty, isFull). The
+ *   main function contains comprehensive tests that demonstrate the
+ *   stack's LIFO behavior, boundary conditions, and error handling for
+ *   empty and full stack scenarios.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>

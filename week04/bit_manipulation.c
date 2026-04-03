@@ -1,16 +1,15 @@
 /*
- * File:    sensor_vals.c
+ * File:    bit_manipulation.c
  * Author:  Alexander130892
- * Date:    27-3-2026
+ * Date:    3-4-2026
  *
  * Description:
- *   This file demonstrates packing and unpacking of two 4-bit sensor
- *   values into a single 8-bit byte for efficient data storage or
- *   transmission. It includes utility functions to combine two sensor
- *   readings into one byte, extract them back to separate values, and
- *   display their binary representations.
+ *   This file implements and demonstrates basic bit manipulation
+ *   operations through macros that can set, clear, toggle, and read
+ *   individual bits in data values. It includes two different bit
+ *   printing functions to visualize the binary representation of data
+ *   and test the bit manipulation macros on an unsigned char value.
  */
-
  //Libraries
 #include <stdio.h>
 #include <stdlib.h>
