@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_32_BST_delete copy.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This C file implements a binary search tree (BST) data structure
+ *   with node deletion functionality, creating a BST from an array and
+ *   demonstrating deletion of a specific node while maintaining BST
+ *   properties. The program tests various tree operations including
+ *   counting nodes, leaves, depth, and converting the BST back to a
+ *   sorted array before and after deletion.
  */
  //Libraries
 #include <stdio.h>

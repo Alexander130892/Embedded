@@ -1,16 +1,14 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_12_insert_tail.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This file implements a singly linked list in C that converts
+ *   strings to linked lists and provides functions to insert elements
+ *   at both the head and tail of the list. The program demonstrates
+ *   these insertion operations by converting "TestString" to a linked
+ *   list, inserting 'A' at both ends, and printing the results.
  */
  //Libraries
 #include <stdio.h>

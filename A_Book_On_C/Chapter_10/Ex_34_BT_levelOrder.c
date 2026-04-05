@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_34_BT_levelOrder.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This C file implements a binary search tree (BST) with various
+ *   tree operations including insertion, deletion, traversal methods
+ *   (inorder and level-order), and utility functions for counting
+ *   nodes, leaves, and tree depth. The main function demonstrates
+ *   these operations by creating a BST from an array and performing
+ *   different tree analysis tasks.
  */
  //Libraries
 #include <stdio.h>

@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_03_04_list_sorted_DATA.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This C file implements a linked list data structure for storing
+ *   person records (name, age, weight) with functionality to create,
+ *   print, sort, and perform queries on the list. It demonstrates
+ *   various linked list operations including recursive creation and
+ *   memory management, bubble sort with customizable comparison
+ *   functions, and counting records that meet specific criteria.
  */
  //Libraries
 #include <stdio.h>

@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_16_delete_dupl.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This C program implements a doubly linked list that converts a
+ *   string into a linked list of characters and removes all duplicate
+ *   characters from the list. The main functionality demonstrates
+ *   creating a list from "TestStriengeT", printing it forward and
+ *   backward, then removing duplicates to leave only unique
+ *   characters.
  */
  //Libraries
 #include <stdio.h>

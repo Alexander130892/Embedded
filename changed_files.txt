@@ -1,4 +1,25 @@
-A_Book_On_C/Chapter_10/Ex_28_double_ended_queue.c
-week04/bit_manipulation.c
-week04/fixed_array_stack.c
-week04/hardware_register_struct.c
+A_Book_On_C/Chapter_10/Ex_01_husbandwife.c
+A_Book_On_C/Chapter_10/Ex_02_list_DATA.c
+A_Book_On_C/Chapter_10/Ex_03_04_list_sorted_DATA.c
+A_Book_On_C/Chapter_10/Ex_05_6_cyclic_concatenate_list.c
+A_Book_On_C/Chapter_10/Ex_07_iterative_print.c
+A_Book_On_C/Chapter_10/Ex_08_concat_improved.c
+A_Book_On_C/Chapter_10/Ex_09_concat_extra.c
+A_Book_On_C/Chapter_10/Ex_10_iterative_concat.c
+A_Book_On_C/Chapter_10/Ex_11_insert_head.c
+A_Book_On_C/Chapter_10/Ex_12_insert_tail.c
+A_Book_On_C/Chapter_10/Ex_13_insert_after.c
+A_Book_On_C/Chapter_10/Ex_14_insert_general.c
+A_Book_On_C/Chapter_10/Ex_15_doublelinkedlist.c
+A_Book_On_C/Chapter_10/Ex_16_delete_dupl.c
+A_Book_On_C/Chapter_10/Ex_17_18_19_20_polishNotation.c
+A_Book_On_C/Chapter_10/Ex_24_24_array_to_queue.c
+A_Book_On_C/Chapter_10/Ex_26_27_scheduler.c
+A_Book_On_C/Chapter_10/Ex_28_prio_scheduler.c
+A_Book_On_C/Chapter_10/Ex_29_BinaryTree.c
+A_Book_On_C/Chapter_10/Ex_30_OrderedBinaryTree.c
+A_Book_On_C/Chapter_10/Ex_31_BST_to_orderedArray copy.c
+A_Book_On_C/Chapter_10/Ex_32_BST_delete copy.c
+A_Book_On_C/Chapter_10/Ex_33_heapsort.c
+A_Book_On_C/Chapter_10/Ex_34_BT_levelOrder.c
+A_Book_On_C/Chapter_10/Ex_35_findDepthTree.c

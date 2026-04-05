@@ -1,16 +1,14 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_02_list_DATA.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This file implements a linked list data structure to store
+ *   personal information (name, age, weight) and provides functions to
+ *   create, print, traverse, and analyze the list. It includes a
+ *   recursive linked list creation function and a utility function to
+ *   count elements that meet specified age and weight thresholds.
  */
  //Libraries
 #include <stdio.h>

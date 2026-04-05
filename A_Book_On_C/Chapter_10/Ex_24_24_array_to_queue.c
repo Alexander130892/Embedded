@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_24_24_array_to_queue.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This C program implements a linked list-based queue data structure
+ *   and demonstrates converting an array to a queue and then back to
+ *   an array, effectively preserving the original order through FIFO
+ *   operations. The main function creates an array, converts it to a
+ *   queue using enqueue operations, then converts it back to an array
+ *   using dequeue operations and prints the result.
  */
  //Libraries
 #include <stdio.h>

@@ -1,16 +1,14 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_09_concat_extra.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This file implements a linked list library for character data,
+ *   providing functions to create lists from strings, concatenate two
+ *   lists, clone lists, and detect cycles. The main function
+ *   demonstrates converting two strings to linked lists, concatenating
+ *   them, and testing for cycles before freeing the memory.
  */
  //Libraries
 #include <stdio.h>

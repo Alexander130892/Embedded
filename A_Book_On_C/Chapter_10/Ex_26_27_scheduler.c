@@ -1,16 +1,15 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_26_27_scheduler.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This file implements a simple job scheduler that reads job
+ *   requests from input, categorizes them into four separate queues
+ *   (A, B, C, D) based on input characters, and then processes each
+ *   queue in FIFO order to display the scheduled jobs. It uses a
+ *   linked-list-based queue data structure to manage process IDs for
+ *   each scheduler category.
  */
  //Libraries
 #include <stdio.h>

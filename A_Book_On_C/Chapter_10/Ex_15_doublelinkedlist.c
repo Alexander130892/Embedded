@@ -1,16 +1,16 @@
 /*
- * File:    Ex_28_double_ended_queue.c
+ * File:    Ex_15_doublelinkedlist.c
  * Author:  Alexander130892
- * Date:    31-3-2026
+ * Date:    5-4-2026
  *
  * Description:
- *   This file implements a double-ended queue (deque) data structure
- *   using a fixed-size array, allowing insertion and removal of
- *   elements from both the front and rear ends. The implementation
- *   uses a bidirectional approach starting from the middle of the
- *   array, expanding towards both ends, and includes comprehensive
- *   test cases demonstrating all operations including overflow and
- *   underflow conditions.
+ *   This file implements a doubly-linked list data structure that
+ *   stores characters, providing functions to create lists from
+ *   strings, insert/delete nodes at various positions, and print the
+ *   list in both forward and reverse directions. The main function
+ *   demonstrates the functionality by converting "TestString" to a
+ *   linked list, printing it both ways, deleting a character, and
+ *   cleaning up memory.
  */
  //Libraries
 #include <stdio.h>
