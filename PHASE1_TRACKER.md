@@ -61,7 +61,7 @@
 > ~10 hrs | R1 Chapters 8 + 9
 - [x] R1 Ch.8 — The preprocessor: `#define`, `#include`, macros with arguments
 - [x] R1 Ch.9 — Structures and list processing: declaration, nested structs, struct pointers
-- [ ] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
+- [x] R1 Ch.10 Draw memory layout diagrams: stack, heap, BSS, data, text segments
 - [x] Study `static` — file scope vs function scope meanings
 - [x] Study `volatile` keyword — why it matters in embedded C
 - [x] Practice: set bit N, clear bit N, toggle bit N, read bit N — write macros
@@ -74,10 +74,10 @@
 #### Week 5 — C Consolidation + Toolchain Deep Dive
 > ~10 hrs | R1 Ch.10-11-12 review + R7 
 - [ ] R1 Ch.11 File handling
-- [ ] R1 Ch.12 Advanced applications
-- [ ] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
 - [ ] Write a Makefile that compiles a multi-file C project on the host
+- [ ] R1 Ch.12 Advanced applications
+- [x] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [ ] Complete one practice problem set from R2 (UT Austin exercises)
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
@@ -90,100 +90,132 @@
 
 ---
 
-#### Week 6 — STM32 Architecture + GPIO
-> ~10 hrs | R3 Part I + STM32 Reference Manual (GPIO chapter)
+Week 6 — STM32 Architecture + GPIO
 
-- [ ] R3 Ch.1–2 — STM32 family overview, Cortex-M architecture basics
-- [ ] Study the memory map: Flash, SRAM, peripheral base addresses
-- [ ] Understand the RCC (Reset and Clock Control) peripheral — how to enable GPIO clocks
-- [ ] Read the GPIO chapter of your board's Reference Manual
-- [ ] Write bare-metal blink: enable RCC clock → configure MODER → toggle ODR
-- [ ] No HAL, no CubeMX — hex values only, with comments explaining each register field
-- [ ] Commit to `week06/gpio_blink/`
+~10 hrs | R3 Ch.1, Ch.6 + STM32 Reference Manual (GPIO + RCC chapters)
 
-> 🏁 **M3 checkpoint:** LED blinking via direct register writes.
 
----
+ - [ ] R3 Ch.1 — ARM/Cortex-M architecture: core registers, memory map, interrupts overview, CMSIS
+ - [x] R3 Ch.2-5 — Skim only: STM32CubeIDE setup (you need the toolchain, skip the CubeMX workflow)
+ - [ ] R3 Ch.6 — GPIO Management: peripheral mapping, MODER, ODR, alternate function — read the register descriptions, ignore HAL calls
+ - [ ] Study the memory map from Ch.1: locate Flash, SRAM, and peripheral base addresses for your specific MCU
+ - [ ] Reference Manual: RCC chapter — understand how to enable GPIO clocks before touching any GPIO register
+ - [ ] Exercise: bare-metal blink — enable RCC clock → set MODER → toggle ODR, hex values only with comments on every register field
+ - [ ] Commit to week06/gpio_blink/
 
-#### Week 7 — UART (Transmit)
-> ~10 hrs | R3 UART chapter + Reference Manual USART section
 
-- [ ] R3 UART chapter — understand baud rate formula, frame format, status flags
-- [ ] Configure USART2 (or your board's default UART): enable RCC, set GPIO AF mode, configure BRR, CR1
-- [ ] Implement `uart_send_char()` and `uart_send_string()` — polling, no interrupts yet
-- [ ] Verify output with a serial terminal (minicom / PuTTY / screen)
-- [ ] Commit to `week07/uart_tx/`
+🏁 M3 checkpoint: LED blinking via direct register writes.
 
----
 
-#### Week 8 — UART (Receive) + Command Parser Start
-> ~10 hrs | Reference Manual + original code
+Week 7 — UART (Transmit)
 
-- [ ] Implement `uart_receive_char()` — polling on RXNE flag
-- [ ] Build a simple receive buffer (circular buffer or fixed array + index)
-- [ ] Parse newline-terminated strings into a command + argument
-- [ ] Commands to support: `led on`, `led off`, `status` (returns uptime or similar)
-- [ ] Test interactively via serial terminal
-- [ ] Commit to `week08/uart_rx/`
+~10 hrs | R3 Ch.8 + Reference Manual USART section
 
-> 🏁 **M4 checkpoint:** UART TX and RX working; basic command echo functional.
 
----
+ - [ ] R3 Ch.8.1 — UART/USART introduction: baud rate formula, frame format (start/stop/parity), TX/RX lines
+ - [ ] R3 Ch.8.2 — UART initialization fields: understand what BRR, CR1, CR2 each control — ignore HAL_UART_Init(), use the field descriptions
+ - [ ] R3 Ch.8.3 — Polling mode: understand the status flags (TXE, TC, RXNE) — this maps directly to your bare-metal approach
+ - [ ] Reference Manual: USART section — confirm BRR calculation for your clock speed
+ - [ ] Exercise: configure USART2 bare-metal — enable RCC, set GPIO to AF mode, write BRR and CR1 directly
+ - [ ] Exercise: implement uart_send_char() and uart_send_string() polling on TXE flag
+ - [ ] Verify output with a serial terminal (minicom / PuTTY / screen)
+ - [ ] Commit to week07/uart_tx/
 
-#### Week 9 — Timers (Basic)
-> ~10 hrs | R3 Timers chapter + Reference Manual TIM section
 
-- [ ] R3 timers chapter — understand PSC (prescaler), ARR (auto-reload), CNT
-- [ ] Configure TIM2 in up-counting mode to generate a 1 Hz tick
-- [ ] Use timer compare (CCR) to generate a software delay without blocking loops
-- [ ] Implement a `millis()` equivalent using the timer counter
-- [ ] Replace `for`-loop delays in your blink code with timer-based delays
-- [ ] Commit to `week09/timers_basic/`
+Week 8 — UART (Receive) + Command Parser
 
----
+~10 hrs | R3 Ch.8 (remainder) + original code
 
-#### Week 10 — Interrupts + NVIC
-> ~10 hrs | R3 interrupts chapter + ARM Cortex-M PM0214
 
-- [ ] Study the Cortex-M NVIC: interrupt enable, priority, pending registers
-- [ ] Enable TIM2 update interrupt → toggle LED in ISR
-- [ ] Enable EXTI interrupt on a button GPIO → debounce in ISR or main loop
-- [ ] Study ISR best practices: keep ISRs short, use `volatile` flags, avoid blocking calls
-- [ ] Refactor UART RX to use RXNE interrupt instead of polling
-- [ ] Commit to `week10/interrupts/`
+ - [ ] R3 Ch.8.4 — Interrupt mode section: read to understand RXNE interrupt mechanics even though you poll first
+ - [ ] R3 Ch.8.5 — Error management: understand ORE (overrun), FE (framing), NE (noise) flags — know how to clear them
+ - [ ] Exercise: implement uart_receive_char() — poll on RXNE flag
+ - [ ] Exercise: build a receive buffer (circular buffer or fixed array + index)
+ - [ ] Exercise: parse newline-terminated strings into command + argument
+ - [ ] Commands to support: led on, led off, status
+ - [ ] Test interactively via serial terminal
+ - [ ] Commit to week08/uart_rx/
 
-> 🏁 **M5 checkpoint:** Timer interrupt firing reliably; UART RX interrupt-driven.
 
----
+🏁 M4 checkpoint: UART TX and RX working; basic command echo functional.
 
-#### Week 11 — PWM + Integration
-> ~10 hrs | R3 PWM section + original code
 
-- [ ] Configure a timer in PWM mode (TIM_OCMode_PWM1): set duty cycle via CCR
-- [ ] Drive an LED with variable brightness (e.g. fade in/out)
-- [ ] Integrate UART command parser: accept `pwm <0-100>` command to set duty cycle live
-- [ ] Wire together blink, UART, timer, interrupt code into a single coherent project
-- [ ] Refactor into clean modules: `gpio.c`, `uart.c`, `timer.c`, `main.c`
-- [ ] Commit to `week11/pwm_integration/`
+Week 9 — Timers (Basic)
 
----
+~10 hrs | R3 Ch.10, Ch.11 + Reference Manual TIM section
 
-#### Week 12 — Deliverable + Documentation
-> ~10 hrs | Polish, README, reflection
 
-- [ ] Final integration test: all features working together on hardware
-- [ ] Write `README.md` covering:
-  - [ ] Project overview and feature list
-  - [ ] Hardware setup (board, wiring diagram or description)
-  - [ ] Build instructions (`make`, flash with OpenOCD)
-  - [ ] Design decisions: why polling vs interrupts, buffer strategy, register choices
-  - [ ] Lessons learned / what you'd do differently
-- [ ] Add schematic or ASCII wiring diagram
-- [ ] Tag the repo: `git tag v1.0-phase1`
-- [ ] Review repo structure — clean up dead code, add comments where missing
-- [ ] Write a short Phase 1 retrospective (add to README or a `NOTES.md`)
+ - [ ] R3 Ch.10 — Clock Tree: understand how the APB prescalers feed timer clocks — this directly affects your PSC calculation
+ - [ ] R3 Ch.11.1 — Timer categories: basic, general purpose, advanced — know which TIM2 is and what it can do
+ - [ ] R3 Ch.11.2 — Basic timers: PSC (prescaler), ARR (auto-reload), CNT — read register descriptions, skip HAL
+ - [ ] R3 Ch.11.3 (intro) — General purpose timer counting modes — up-counting is your default
+ - [ ] Reference Manual: TIM2 section — confirm register addresses and reset values
+ - [ ] Exercise: configure TIM2 in up-counting mode to generate a 1 Hz tick
+ - [ ] Exercise: implement a millis() equivalent using CNT
+ - [ ] Exercise: replace for-loop delays in blink code with timer-based delays
+ - [ ] Commit to week09/timers_basic/
 
-> 🏁 **M6 checkpoint:** GitHub repo published. Phase 1 complete. ✅
+
+Week 10 — Interrupts + NVIC
+
+~10 hrs | R3 Ch.7 + ARM Cortex-M PM0214
+
+
+ - [ ] R3 Ch.7.1 — NVIC controller: vector table layout in STM32, interrupt numbers
+ - [ ] R3 Ch.7.2 — Enabling interrupts: EXTI lines, external GPIO interrupts, NVIC enable registers
+ - [ ] R3 Ch.7.3 — Interrupt lifecycle: pending, active, preemption — understand what happens on entry/exit
+ - [ ] R3 Ch.7.4 — Priority levels for your Cortex-M variant (M3/M4/M7 section if applicable)
+ - [ ] R3 Ch.7.6 — Masking interrupts: PRIMASK, BASEPRI — useful for critical sections
+ - [ ] Exercise: enable TIM2 update interrupt → toggle LED in ISR
+ - [ ] Exercise: enable EXTI interrupt on a button GPIO → debounce in ISR or main loop
+ - [ ] Exercise: refactor UART RX to use RXNE interrupt instead of polling
+ - [ ] Study ISR best practices: keep ISRs short, use volatile flags, avoid blocking calls
+ - [ ] Commit to week10/interrupts/
+
+
+🏁 M5 checkpoint: Timer interrupt firing reliably; UART RX interrupt-driven.
+
+
+Week 11 — PWM + Integration
+
+~10 hrs | R3 Ch.11.3 (PWM sections) + original code
+
+
+- [ ]  R3 Ch.11.3.5 — Input Capture mode: read for context, understand the capture/compare unit
+- [ ]  R3 Ch.11.3.6 — Output Compare mode: the foundation PWM builds on
+- [ ]  R3 Ch.11.3.7 — PWM generation: CCR, PWM1 vs PWM2 mode, duty cycle formula
+- [ ]  Reference Manual: TIMx_CCMRx and TIMx_CCRx registers for your timer
+- [ ]  Exercise: configure a timer in PWM mode — set duty cycle via CCR
+- [ ]  Exercise: drive an LED with variable brightness (fade in/out)
+- [ ]  Exercise: integrate UART command parser — accept pwm <0-100> to set duty cycle live
+- [ ]  Exercise: wire together blink, UART, timer, interrupt code into a single project
+- [ ]  Refactor into clean modules: gpio.c, uart.c, timer.c, main.c
+- [ ]  Commit to week11/pwm_integration/
+
+
+Week 12 — Deliverable + Documentation
+
+~10 hrs | Polish, README, reflection
+
+
+ - [ ] R3 Ch.5 — Debugging: use the SFRs View to verify your register values, set watchpoints on key variables
+ - [ ] Final integration test: all features working together on hardware
+ - [ ] Write README.md covering:
+
+ - [ ] Project overview and feature list
+ - [ ] Hardware setup (board, wiring diagram or description)
+ - [ ] Build instructions (make, flash with OpenOCD/STM32CubeProgrammer)
+ - [ ] Design decisions: polling vs interrupts, buffer strategy, register choices
+ - [ ] Lessons learned / what you'd do differently
+
+
+ - [ ] Add schematic or ASCII wiring diagram
+ - [ ] Tag the repo: git tag v1.0-phase1
+ - [ ] Clean up dead code, add comments where missing
+ - [ ] Write a short Phase 1 retrospective (NOTES.md)
+
+
+🏁 M6 checkpoint: GitHub repo published. Phase 1 complete. ✅
 
 ---
 
