@@ -77,7 +77,8 @@
 - [x] Write a Makefile that compiles a multi-file C project on the host
 - [ ] R1 Ch.12 Advanced applications
 - [x] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
-- [x] R2 - C6 Microcontroller Ports — different chip (TM4C123 vs STM32) but the concept of direction registers, memory-mapped I/O, and GPIO programming is identical. The lab is good practice before Week 6.
+- [x] R2 - C6 Microcontroller Ports — different chip (TM4C123 vs STM32) but the concept of direction registers, memory-mapped I/O, and GPIO programming is identical.
+- [x] R2 - C7 Design and Development Cycle
 - [ ] R2 - C8 Switches and LEDs — breadboard wiring, switch interfaces, LED current limiting. Quick read, practical lab.
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
@@ -98,10 +99,10 @@ Week 6 — STM32 Architecture + GPIO
  - [x] R3 Ch.1 — ARM/Cortex-M architecture: core registers, memory map, interrupts overview, CMSIS
  - [x] R3 Ch.2-5 — Skim only: STM32CubeIDE setup (you need the toolchain, skip the CubeMX workflow)
  - [x] R3 Ch.6 — GPIO Management: peripheral mapping, MODER, ODR, alternate function — read the register descriptions, ignore HAL calls
- - [ ] Study the memory map from Ch.1: locate Flash, SRAM, and peripheral base addresses for your specific MCU
- - [ ] Reference Manual: RCC chapter — understand how to enable GPIO clocks before touching any GPIO register
- - [ ] Exercise: bare-metal blink — enable RCC clock → set MODER → toggle ODR, hex values only with comments on every register field
- - [ ] Commit to week06/gpio_blink/
+ - [x] Study the memory map from Ch.1: locate Flash, SRAM, and peripheral base addresses for your specific MCU
+ - [x] Reference Manual: RCC chapter — understand how to enable GPIO clocks before touching any GPIO register
+ - [x] Exercise: bare-metal blink — enable RCC clock → set MODER → toggle ODR, hex values only with comments on every register field
+ - [x] Commit to week06/gpio_blink/
 
 
 🏁 M3 checkpoint: LED blinking via direct register writes.
@@ -229,8 +230,8 @@ Week 12 — Deliverable + Documentation
 | 2 | Functions + Arrays | ✅ Done |
 | 3 | Pointers + Memory Layout | ✅ Done |
 | 4 | Structs + Bit Manipulation | ✅ Done |
-| 5 | C Consolidation + Toolchain | ⬜ Not started |
-| 6 | STM32 Architecture + GPIO | ⬜ Not started |
+| 5 | C Consolidation + Toolchain | 🟡 In progress |
+| 6 | STM32 Architecture + GPIO | ✅ Done |
 | 7 | UART TX | ⬜ Not started |
 | 8 | UART RX + Command Parser | ⬜ Not started |
 | 9 | Timers | ⬜ Not started |
