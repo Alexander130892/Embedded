@@ -46,7 +46,6 @@
 
 #### Week 3 — Pointers + Bit Manipulation
 > ~10 hrs | R1 Chapter 6 +7 (deep dive)
-
 - [x] R1 Ch.6 — Revisit: pointer arithmetic, multi-dimensional arrays, pointers to pointers
 - [x] R1 Ch.7 — Bitwise operators and enumerations: `&`, `|`, `^`, `~`, `<<`, `>>`
 - [x] **R7 (Barr Group)** — Read sections on `stdint.h` fixed-width types (`uint8_t`, `uint32_t`, etc.) — these are ubiquitous in embedded C and not covered in Kelley & Pohl
@@ -73,12 +72,13 @@
 
 #### Week 5 — C Consolidation + Toolchain Deep Dive
 > ~10 hrs | R1 Ch.10-11-12 review + R7 
-- [ ] R1 Ch.11 File handling
-- [ ] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
-- [ ] Write a Makefile that compiles a multi-file C project on the host
+- [x] R1 Ch.11 File handling
+- [x] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
+- [x] Write a Makefile that compiles a multi-file C project on the host
 - [ ] R1 Ch.12 Advanced applications
 - [x] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
-- [ ] Complete one practice problem set from R2 (UT Austin exercises)
+- [x] R2 - C6 Microcontroller Ports — different chip (TM4C123 vs STM32) but the concept of direction registers, memory-mapped I/O, and GPIO programming is identical. The lab is good practice before Week 6.
+- [ ] R2 - C8 Switches and LEDs — breadboard wiring, switch interfaces, LED current limiting. Quick read, practical lab.
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
 
@@ -95,9 +95,9 @@ Week 6 — STM32 Architecture + GPIO
 ~10 hrs | R3 Ch.1, Ch.6 + STM32 Reference Manual (GPIO + RCC chapters)
 
 
- - [ ] R3 Ch.1 — ARM/Cortex-M architecture: core registers, memory map, interrupts overview, CMSIS
+ - [x] R3 Ch.1 — ARM/Cortex-M architecture: core registers, memory map, interrupts overview, CMSIS
  - [x] R3 Ch.2-5 — Skim only: STM32CubeIDE setup (you need the toolchain, skip the CubeMX workflow)
- - [ ] R3 Ch.6 — GPIO Management: peripheral mapping, MODER, ODR, alternate function — read the register descriptions, ignore HAL calls
+ - [x] R3 Ch.6 — GPIO Management: peripheral mapping, MODER, ODR, alternate function — read the register descriptions, ignore HAL calls
  - [ ] Study the memory map from Ch.1: locate Flash, SRAM, and peripheral base addresses for your specific MCU
  - [ ] Reference Manual: RCC chapter — understand how to enable GPIO clocks before touching any GPIO register
  - [ ] Exercise: bare-metal blink — enable RCC clock → set MODER → toggle ODR, hex values only with comments on every register field
@@ -154,6 +154,8 @@ Week 9 — Timers (Basic)
  - [ ] Exercise: implement a millis() equivalent using CNT
  - [ ] Exercise: replace for-loop delays in blink code with timer-based delays
  - [ ] Commit to week09/timers_basic/
+ - [ ] C9 — SysTick Timer + Functional Debugging — SysTick is a Cortex-M standard peripheral, present on your STM32 too. The debugging theory section is solid.
+ - [ ] C10 — Finite State Machines — FSMs are a fundamental embedded design pattern you'll use in your UART command parser. The concepts translate directly even though the chip differs.
 
 
 Week 10 — Interrupts + NVIC
