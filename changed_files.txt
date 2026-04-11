@@ -1,13 +1,3 @@
-A_Book_On_C/Chapter_10/Ex_31_BST_to_orderedArray.c
-A_Book_On_C/Chapter_11/Ex_01_dbl_space/dbl_space.c
-A_Book_On_C/Chapter_11/Ex_02_dbl_space_strict/dbl_space.c
-A_Book_On_C/Chapter_11/Ex_03_getstring.c
-A_Book_On_C/Chapter_11/Ex_04_linenrs.c
-A_Book_On_C/Chapter_11/Ex_05_ungetc.c
-A_Book_On_C/Chapter_11/Ex_06_screenc.c
-A_Book_On_C/Chapter_11/Ex_07_multiple_screens.c
-A_Book_On_C/Chapter_11/Ex_08_search.c
-A_Book_On_C/Chapter_11/Ex_09_search_plus.c
-A_Book_On_C/Chapter_11/Ex_10_try_me copy.c
-A_Book_On_C/Chapter_11/Ex_11_wrt_rand.c
-A_Book_On_C/Chapter_11/Ex_12_str_access.c
+week06/Src/main.c
+week06/Src/syscalls.c
+week06/Src/sysmem.c
