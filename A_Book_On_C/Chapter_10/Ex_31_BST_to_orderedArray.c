@@ -1,14 +1,13 @@
 /*
  * File:    Ex_31_BST_to_orderedArray.c
  * Author:  Alexander130892
- * Date:    8-4-2026
+ * Date:    11-4-2026
  *
  * Description:
- *   This file converts a Binary Search Tree (BST) into a sorted array
- *   using in-order traversal, which naturally produces elements in
- *   ascending order due to the BST property. The program also includes
- *   utility functions to analyze tree properties like node count, leaf
- *   count, and depth.
+ *   This C program creates a Binary Search Tree (BST) from an array of
+ *   integers and converts it back to a sorted array using in-order
+ *   traversal. It also includes utility functions to count nodes,
+ *   leaves, tree depth, and search for specific values in the BST.
  */
  //Libraries
 #include <stdio.h>

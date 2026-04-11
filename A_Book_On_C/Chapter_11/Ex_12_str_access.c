@@ -1,16 +1,15 @@
 /*
  * File:    Ex_12_str_access.c
  * Author:  Alexander130892
- * Date:    8-4-2026
+ * Date:    11-4-2026
  *
  * Description:
- *   This file demonstrates the difference between string scanning with
- *   a fixed pointer versus an incrementing pointer by writing
- *   characters to two files: "tmp1" receives the same first character
- *   'a' three times, while "tmp2" receives each character 'a', 'b',
- *   'c' sequentially.
+ *   This C program demonstrates different behaviors when accessing
+ *   string characters with sscanf, writing "aaa" to tmp1 file (since
+ *   sscanf always reads from the start of the string) and "abc" to
+ *   tmp2 file (since the pointer is incremented to read each
+ *   successive character).
  */
-
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>

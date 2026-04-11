@@ -1,17 +1,15 @@
 /*
  * File:    Ex_06_screenc.c
  * Author:  Alexander130892
- * Date:    8-4-2026
+ * Date:    11-4-2026
  *
  * Description:
- *   This C program implements a simple text file pager that displays a
- *   file's contents 20 lines at a time, pausing after each page to
- *   wait for user input to continue or quit. The program takes a
- *   filename as a command-line argument and allows the user to
- *   navigate through the file by pressing Enter for the next page or
- *   'q' to quit.
+ *   This file implements a simple pager utility that displays a text
+ *   file 20 lines at a time, prompting the user to press ENTER to
+ *   continue to the next page or 'q' to quit. It takes a filename as a
+ *   command-line argument and provides basic error handling for file
+ *   opening and usage.
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 

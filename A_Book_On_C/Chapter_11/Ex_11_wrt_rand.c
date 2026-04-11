@@ -1,16 +1,15 @@
 /*
  * File:    Ex_11_wrt_rand.c
  * Author:  Alexander130892
- * Date:    8-4-2026
+ * Date:    11-4-2026
  *
  * Description:
- *   This program generates a user-specified number of random integers
- *   and writes them to a file, formatting the output with 6 numbers
- *   per line and 12 characters per number. It includes safety checks
- *   to prevent accidentally overwriting existing files by prompting
- *   the user for confirmation.
+ *   This program prompts the user for a number of random integers to
+ *   generate and a filename, then writes those random numbers to the
+ *   specified file with 6 numbers per line. It includes safety checks
+ *   to prevent accidental file overwrites by asking for user
+ *   confirmation if the target file already exists.
  */
-
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
