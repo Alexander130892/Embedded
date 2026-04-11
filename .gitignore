@@ -10,3 +10,17 @@
 
 # Ignore VS Code settings
 .vscode/
+
+# Build artifacts
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.map
+*.lst
+
+# CubeIDE workspace metadata
+.metadata/
+.settings/
+*.launch
