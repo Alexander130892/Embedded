@@ -1,3 +1,16 @@
+/*
+ * File:    main.c
+ * Author:  Alexander130892
+ * Date:    11-4-2026
+ *
+ * Description:
+ *   This STM32 microcontroller program controls an LED on pin PA5 that
+ *   turns on when a push button on pin PC13 is not pressed, and turns
+ *   off when the button is pressed. The program uses direct register
+ *   manipulation to configure GPIO pins and runs in an infinite loop
+ *   monitoring the button state to control the LED accordingly.
+ */
+
 /**
  ******************************************************************************
  * @file           : main.c
