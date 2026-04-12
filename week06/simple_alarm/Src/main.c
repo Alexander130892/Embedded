@@ -1,3 +1,16 @@
+/*
+ * File:    main.c
+ * Author:  Alexander130892
+ * Date:    12-4-2026
+ *
+ * Description:
+ *   This STM32 microcontroller program configures GPIO pins to control
+ *   an LED that blinks when switch 1 (PA8) is pressed and stops
+ *   blinking when switch 2 (PB10) is pressed. The program uses direct
+ *   register manipulation to initialize the GPIO peripherals and
+ *   implements a simple delay-based blinking pattern on LED pin PA10.
+ */
+
 /**
  ******************************************************************************
  * @file           : main.c

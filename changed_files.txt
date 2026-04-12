@@ -1,3 +1,6 @@
-week06/Src/main.c
-week06/Src/syscalls.c
-week06/Src/sysmem.c
+week06/blink/Src/main.c
+week06/blink/Src/syscalls.c
+week06/blink/Src/sysmem.c
+week06/simple_alarm/Src/main.c
+week06/simple_alarm/Src/syscalls.c
+week06/simple_alarm/Src/sysmem.c
