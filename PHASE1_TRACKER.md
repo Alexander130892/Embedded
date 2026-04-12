@@ -112,7 +112,6 @@ Week 7 — UART (Transmit)
 
 ~10 hrs | R3 Ch.8 + Reference Manual USART section
 
-
  - [ ] R3 Ch.8.1 — UART/USART introduction: baud rate formula, frame format (start/stop/parity), TX/RX lines
  - [ ] R3 Ch.8.2 — UART initialization fields: understand what BRR, CR1, CR2 each control — ignore HAL_UART_Init(), use the field descriptions
  - [ ] R3 Ch.8.3 — Polling mode: understand the status flags (TXE, TC, RXNE) — this maps directly to your bare-metal approach
