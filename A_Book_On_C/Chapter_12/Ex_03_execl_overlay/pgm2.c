@@ -1,3 +1,14 @@
+/*
+ * File:    pgm2.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
+ *
+ * Description:
+ *   This program calculates and prints the sum of all numeric
+ *   command-line arguments passed to it, ignoring any non-numeric
+ *   arguments.
+ */
+
 
 
 #include <stdio.h>

@@ -1,13 +1,16 @@
 /*
- * File:    matrix_multiply_pipe.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_05_concurrent_matrix_multiplication copy.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Multiplies two N×N matrices using N concurrent child
- *   processes communicating results back via pipes.
+ *   This file implements concurrent matrix multiplication by forking N
+ *   child processes, where each child computes one row of the result
+ *   matrix and communicates it back to the parent process through
+ *   pipes. The program multiplies two 4x4 matrices (A and an identity
+ *   matrix B) using parallel processing to demonstrate inter-process
+ *   communication.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,14 +1,16 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_014_3d_matrix.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This file demonstrates dynamic allocation and manipulation of a 3D
+ *   matrix in C, creating a 2x3x4 integer array that is filled with
+ *   random values between -5 and 5, printed to the console, and then
+ *   properly deallocated. The program showcases memory management
+ *   techniques for multi-dimensional arrays using triple pointers and
+ *   nested loops.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

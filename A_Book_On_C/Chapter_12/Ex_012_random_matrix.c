@@ -1,14 +1,15 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_012_random_matrix.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This program creates a 3x4 integer matrix, fills it with random
+ *   values between -5 and 5, prints the matrix to the console, and
+ *   then frees the allocated memory. The matrix allocation appears to
+ *   have a bug where rows and columns are swapped during memory
+ *   allocation but accessed correctly during filling and printing.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

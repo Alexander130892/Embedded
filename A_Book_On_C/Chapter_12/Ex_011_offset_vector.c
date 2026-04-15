@@ -1,14 +1,14 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_011_offset_vector.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This file demonstrates pointer arithmetic by creating an offset
+ *   array where the pointer is shifted backward so that array indices
+ *   correspond to years (1989-1998), allowing direct indexing by year
+ *   rather than starting from 0.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

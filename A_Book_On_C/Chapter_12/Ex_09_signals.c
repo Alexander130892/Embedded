@@ -1,14 +1,15 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_09_signals.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This C program demonstrates signal handling for floating-point
+ *   exceptions (SIGFPE) by first ignoring division by zero errors and
+ *   printing the result, then restoring default signal handling which
+ *   would typically cause the program to terminate on the second
+ *   division by zero.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

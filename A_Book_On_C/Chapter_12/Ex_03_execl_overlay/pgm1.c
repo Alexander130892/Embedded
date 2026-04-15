@@ -1,3 +1,14 @@
+/*
+ * File:    pgm1.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
+ *
+ * Description:
+ *   This file implements a simple program that prints its own name
+ *   followed by all command-line arguments passed to it, separated by
+ *   spaces and ending with a newline.
+ */
+
 
 
 #include <stdio.h>

@@ -1,14 +1,16 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_07_pipe_capacity.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This program determines the buffer capacity of a Unix pipe by
+ *   having a child process write bytes in non-blocking mode until the
+ *   pipe becomes full, then reports how many bytes were successfully
+ *   written. The parent process waits for the child to complete, then
+ *   drains and counts all bytes from the pipe to verify the capacity
+ *   measurement.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

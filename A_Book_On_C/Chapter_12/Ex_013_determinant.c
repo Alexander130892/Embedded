@@ -1,14 +1,15 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_013_determinant.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This file creates a 3x3 matrix filled with random integers and
+ *   provides functionality to calculate its determinant using Gaussian
+ *   elimination with partial pivoting. However, the main function only
+ *   fills and prints the matrix without actually calling the
+ *   determinant function.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

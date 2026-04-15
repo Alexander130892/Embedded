@@ -1,14 +1,13 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_16_RPC.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This file implements an RPC client that polls a remote host to
+ *   retrieve system statistics including boot time and current time,
+ *   printing the results to stdout if the RPC call succeeds.
  */
-
 //Libraries
 #include <stdio.h>
 #include <rpc/rpc.h>

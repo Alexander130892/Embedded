@@ -1,14 +1,15 @@
 /*
- * File:    pipe_limit.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_015_trace.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Finds the pipe buffer capacity by writing one byte at a
- *   time in non-blocking mode until EAGAIN, then reporting
- *   the total bytes written.
+ *   This C program calculates the trace (sum of diagonal elements) of
+ *   a 3x3 matrix that is dynamically allocated as an array of pointers
+ *   to double arrays. The program allocates memory for a 3x3 matrix
+ *   initialized to zero, computes its trace using a separate function,
+ *   prints the result, and properly frees the allocated memory.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,15 +1,16 @@
 /*
- * File:    dining_philosophers.c
- * Author:  Alexander Vindelinckx
- * Date:    14-4-2026
+ * File:    Ex_08_Changed_Dining_philisophers.c
+ * Author:  Alexander130892
+ * Date:    15-4-2026
  *
  * Description:
- *   Dining Philosophers using pipes as semaphores and N
- *   processes. On SIGINT the parent signals each child via
- *   SIGUSR1 to report its eat count through a dedicated pipe.
- *   Children ignore SIGINT so only the parent drives shutdown.
+ *   This C program implements a modified version of the classic dining
+ *   philosophers problem using 5 philosophers as separate processes,
+ *   where chopsticks are represented by semaphores and philosopher 3
+ *   uses a different chopstick pickup order to avoid deadlock. The
+ *   program handles SIGINT to collect and display statistics on how
+ *   many times each philosopher ate before termination.
  */
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>
