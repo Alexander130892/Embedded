@@ -79,7 +79,7 @@
 - [x] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [x] R2 - C6 Microcontroller Ports — different chip (TM4C123 vs STM32) but the concept of direction registers, memory-mapped I/O, and GPIO programming is identical.
 - [x] R2 - C7 Design and Development Cycle
-- [ ] R2 - C8 Switches and LEDs — breadboard wiring, switch interfaces, LED current limiting. Quick read, practical lab.
+- [x] R2 - C8 Switches and LEDs — breadboard wiring, switch interfaces, LED current limiting. Quick read, practical lab.
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
 
@@ -102,6 +102,7 @@ Week 6 — STM32 Architecture + GPIO
  - [x] Study the memory map from Ch.1: locate Flash, SRAM, and peripheral base addresses for your specific MCU
  - [x] Reference Manual: RCC chapter — understand how to enable GPIO clocks before touching any GPIO register
  - [x] Exercise: bare-metal blink — enable RCC clock → set MODER → toggle ODR, hex values only with comments on every register field
+ - [x] Exercise: bare-metal simple alarm - two inputs / one output, tested on breadboard
  - [x] Commit to week06/gpio_blink/
 
 
