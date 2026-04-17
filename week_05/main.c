@@ -1,3 +1,16 @@
+/*
+ * File:    main.c
+ * Author:  Alexander130892
+ * Date:    17-4-2026
+ *
+ * Description:
+ *   This C program simulates UART command processing by reading a
+ *   command string from stdin, parsing it into a command with optional
+ *   arguments (like "led on", "pwm 75", "status"), and dispatching to
+ *   appropriate handlers using a function pointer table pattern
+ *   commonly used in embedded systems.
+ */
+
 // Read a command string (from stdin to simulate UART input)
 // Parse it into a command + optional argument: led on, led off, pwm 75, status
 // Dispatch to a handler using a function pointer table (this is the embedded pattern — a table of {command_string, handler_fn} structs)
