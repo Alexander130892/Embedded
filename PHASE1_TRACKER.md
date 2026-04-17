@@ -75,11 +75,12 @@
 - [x] R1 Ch.11 File handling
 - [x] Learn `Makefile` basics: targets, rules, variables, `$(CC)`, `$(CFLAGS)`
 - [x] Write a Makefile that compiles a multi-file C project on the host
-- [ ] R1 Ch.12 Advanced applications
+- [x] R1 Ch.12 Advanced applications
 - [x] Review any chapters that felt weak (common gaps: pointer-to-pointer, function pointers, `const` correctness)
 - [x] R2 - C6 Microcontroller Ports — different chip (TM4C123 vs STM32) but the concept of direction registers, memory-mapped I/O, and GPIO programming is identical.
 - [x] R2 - C7 Design and Development Cycle
 - [x] R2 - C8 Switches and LEDs — breadboard wiring, switch interfaces, LED current limiting. Quick read, practical lab.
+- [x] Build `week05/command_parser/` — host-side UART command parser skeleton in plain C: parses `led on/off`, `pwm <0-100>`, `status` commands using a function pointer dispatch table; multi-file project with Makefile
 
 > 🏁 **M2 checkpoint:** C fundamentals solid. Can write, compile, and debug multi-file C projects from the command line.
 
@@ -230,7 +231,7 @@ Week 12 — Deliverable + Documentation
 | 2 | Functions + Arrays | ✅ Done |
 | 3 | Pointers + Memory Layout | ✅ Done |
 | 4 | Structs + Bit Manipulation | ✅ Done |
-| 5 | C Consolidation + Toolchain | 🟡 In progress |
+| 5 | C Consolidation + Toolchain | ✅ Done |
 | 6 | STM32 Architecture + GPIO | ✅ Done |
 | 7 | UART TX | ⬜ Not started |
 | 8 | UART RX + Command Parser | ⬜ Not started |
