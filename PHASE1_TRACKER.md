@@ -114,14 +114,14 @@ Week 7 — UART (Transmit)
 
 ~10 hrs | R3 Ch.8 + Reference Manual USART section
 
- - [ ] R3 Ch.8.1 — UART/USART introduction: baud rate formula, frame format (start/stop/parity), TX/RX lines
- - [ ] R3 Ch.8.2 — UART initialization fields: understand what BRR, CR1, CR2 each control — ignore HAL_UART_Init(), use the field descriptions
- - [ ] R3 Ch.8.3 — Polling mode: understand the status flags (TXE, TC, RXNE) — this maps directly to your bare-metal approach
- - [ ] Reference Manual: USART section — confirm BRR calculation for your clock speed
- - [ ] Exercise: configure USART2 bare-metal — enable RCC, set GPIO to AF mode, write BRR and CR1 directly
- - [ ] Exercise: implement uart_send_char() and uart_send_string() polling on TXE flag
- - [ ] Verify output with a serial terminal (minicom / PuTTY / screen)
- - [ ] Commit to week07/uart_tx/
+ - [x] R3 Ch.8.1 — UART/USART introduction: baud rate formula, frame format (start/stop/parity), TX/RX lines
+ - [x] R3 Ch.8.2 — UART initialization fields: understand what BRR, CR1, CR2 each control — ignore HAL_UART_Init(), use the field descriptions
+ - [x] R3 Ch.8.3 — Polling mode: understand the status flags (TXE, TC, RXNE) — this maps directly to your bare-metal approach
+ - [x] Reference Manual: USART section — confirm BRR calculation for your clock speed
+ - [x] Exercise: configure USART2 bare-metal — enable RCC, set GPIO to AF mode, write BRR and CR1 directly
+ - [x] Exercise: implement uart_send_char() and uart_send_string(), polling on TXE flag
+ - [x] Verify output with a serial terminal (minicom / PuTTY / screen)
+ - [x] Commit to week07/uart_tx/
 
 
 Week 8 — UART (Receive) + Command Parser
@@ -233,7 +233,7 @@ Week 12 — Deliverable + Documentation
 | 4 | Structs + Bit Manipulation | ✅ Done |
 | 5 | C Consolidation + Toolchain | ✅ Done |
 | 6 | STM32 Architecture + GPIO | ✅ Done |
-| 7 | UART TX | ⬜ Not started |
+| 7 | UART TX | ✅ Done |
 | 8 | UART RX + Command Parser | ⬜ Not started |
 | 9 | Timers | ⬜ Not started |
 | 10 | Interrupts + NVIC | ⬜ Not started |
