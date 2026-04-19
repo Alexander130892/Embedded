@@ -1,3 +1,11 @@
+week08/uart_tx_rx/Inc/led.h
+week08/uart_tx_rx/Inc/parser.h
+week08/uart_tx_rx/Inc/stm32f46re.h
+week08/uart_tx_rx/Inc/uart.h
+week08/uart_tx_rx/Src/led.c
+week08/uart_tx_rx/Src/main.c
+week08/uart_tx_rx/Src/parser.c
+week08/uart_tx_rx/Src/syscalls.c
+week08/uart_tx_rx/Src/sysmem.c
+week08/uart_tx_rx/Src/uart.c
 week_05/main.c
-week_05/parser.c
-week_05/parser.h

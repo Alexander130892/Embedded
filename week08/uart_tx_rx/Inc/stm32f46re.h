@@ -1,10 +1,14 @@
 /*
- * stm32f46re.h
+ * File:    stm32f46re.h
+ * Author:  Alexander130892
+ * Date:    19-4-2026
  *
- *  Created on: Apr 18, 2026
- *      Author: alexandervindelinckx
+ * Description:
+ *   This header file defines base memory addresses for key peripheral
+ *   modules (GPIO, USART2, and RCC) on an STM32F46RE microcontroller,
+ *   providing memory-mapped register access constants for low-level
+ *   hardware programming.
  */
-
 #ifndef STM32F46RE_H_
 #define STM32F46RE_H_
 // AHB1
