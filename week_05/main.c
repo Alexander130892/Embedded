@@ -25,8 +25,6 @@ int main(void){
     // Read command string from std in
     char input[BUFFERSIZE];
     
-    
-
     fprintf(stdout, "Test - simulate input:\n");
 
     // Read the entire line using fgets

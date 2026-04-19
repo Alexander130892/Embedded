@@ -129,14 +129,14 @@ Week 8 — UART (Receive) + Command Parser
 ~10 hrs | R3 Ch.8 (remainder) + original code
 
 
- - [ ] R3 Ch.8.4 — Interrupt mode section: read to understand RXNE interrupt mechanics even though you poll first
- - [ ] R3 Ch.8.5 — Error management: understand ORE (overrun), FE (framing), NE (noise) flags — know how to clear them
- - [ ] Exercise: implement uart_receive_char() — poll on RXNE flag
- - [ ] Exercise: build a receive buffer (circular buffer or fixed array + index)
- - [ ] Exercise: parse newline-terminated strings into command + argument
- - [ ] Commands to support: led on, led off, status
- - [ ] Test interactively via serial terminal
- - [ ] Commit to week08/uart_rx/
+ - [x] R3 Ch.8.4 — Interrupt mode section: read to understand RXNE interrupt mechanics even though you poll first
+ - [x] R3 Ch.8.5 — Error management: understand ORE (overrun), FE (framing), NE (noise) flags — know how to clear them
+ - [x] Exercise: implement uart_receive_char() — poll on RXNE flag
+ - [x] Exercise: build a receive buffer (circular buffer or fixed array + index)
+ - [x] Exercise: parse newline-terminated strings into command + argument
+ - [x] Commands to support: led on, led off, status
+ - [x] Test interactively via serial terminal
+ - [x] Commit to week08/uart_rx/
 
 
 🏁 M4 checkpoint: UART TX and RX working; basic command echo functional.
