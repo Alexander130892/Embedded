@@ -1,3 +1,15 @@
+/*
+ * File:    uart.h
+ * Author:  Alexander130892
+ * Date:    19-4-2026
+ *
+ * Description:
+ *   This header file defines the interface for UART/USART2
+ *   communication, providing register offset definitions for hardware
+ *   access and function declarations for sending and receiving
+ *   characters and strings over serial communication.
+ */
+
 #ifndef UART_H
 #define UART_H
 

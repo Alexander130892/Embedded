@@ -1,3 +1,17 @@
+/*
+ * File:    uart.c
+ * Author:  Alexander130892
+ * Date:    19-4-2026
+ *
+ * Description:
+ *   This file implements UART communication functions for an
+ *   STM32F46RE microcontroller, providing basic character and string
+ *   transmission/reception capabilities through USART2. The functions
+ *   handle polling-based serial communication by directly accessing
+ *   hardware registers to check transmit/receive status flags before
+ *   reading or writing data.
+ */
+
 
 #include "uart.h"
 #include	"stm32f46re.h"

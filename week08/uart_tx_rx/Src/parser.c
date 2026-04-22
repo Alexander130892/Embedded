@@ -1,19 +1,15 @@
 /*
  * File:    parser.c
  * Author:  Alexander130892
- * Date:    17-4-2026
+ * Date:    19-4-2026
  *
  * Description:
  *   This file implements a command parser that processes text commands
- *   ("led", "pwm", "status") and dispatches them to appropriate
- *   handler functions for controlling hardware peripherals. The
- *   handlers currently output test messages to simulate UART
- *   communication, with the LED handler accepting on/off arguments,
- *   PWM handler validating numeric values 0-100, and status handler
- *   taking no arguments.
+ *   received over UART and executes corresponding actions like
+ *   controlling LEDs, PWM, and status reporting. It uses a lookup
+ *   table to match command strings to their respective handler
+ *   functions and sends responses back via UART communication.
  */
-
-
 #include "parser.h"
 #include "uart.h"
 #include "led.h"
