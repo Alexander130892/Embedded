@@ -22,7 +22,10 @@
 
 /* Includes */
 #include <errno.h>
+#include <stddef.h>
 #include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * Pointer to the current high watermark of the heap usage

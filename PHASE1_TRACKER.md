@@ -147,17 +147,17 @@ Week 9 — Timers (Basic)
 ~10 hrs | R3 Ch.10, Ch.11 + Reference Manual TIM section
 
 
- - [ ] R3 Ch.10 — Clock Tree: understand how the APB prescalers feed timer clocks — this directly affects your PSC calculation
- - [ ] R3 Ch.11.1 — Timer categories: basic, general purpose, advanced — know which TIM2 is and what it can do
- - [ ] R3 Ch.11.2 — Basic timers: PSC (prescaler), ARR (auto-reload), CNT — read register descriptions, skip HAL
- - [ ] R3 Ch.11.3 (intro) — General purpose timer counting modes — up-counting is your default
- - [ ] Reference Manual: TIM2 section — confirm register addresses and reset values
- - [ ] Exercise: configure TIM2 in up-counting mode to generate a 1 Hz tick
- - [ ] Exercise: implement a millis() equivalent using CNT
- - [ ] Exercise: replace for-loop delays in blink code with timer-based delays
- - [ ] Commit to week09/timers_basic/
- - [ ] C9 — SysTick Timer + Functional Debugging — SysTick is a Cortex-M standard peripheral, present on your STM32 too. The debugging theory section is solid.
- - [ ] C10 — Finite State Machines — FSMs are a fundamental embedded design pattern you'll use in your UART command parser. The concepts translate directly even though the chip differs.
+ - [x] R3 Ch.10 — Clock Tree: understand how the APB prescalers feed timer clocks — this directly affects your PSC calculation
+ - [x] R3 Ch.11.1 — Timer categories: basic, general purpose, advanced — know which TIM2 is and what it can do
+ - [x] R3 Ch.11.2 — Basic timers: PSC (prescaler), ARR (auto-reload), CNT — read register descriptions, skip HAL
+ - [x] R3 Ch.11.3 (intro) — General purpose timer counting modes — up-counting is your default
+ - [x] Reference Manual: TIM2 section — confirm register addresses and reset values
+ - [x] Exercise: configure TIM2 in up-counting mode to generate a 1 Hz tick
+ - [x] Exercise: implement a millis() equivalent using CNT
+ - [x] Exercise: replace for-loop delays in blink code with timer-based delays
+ - [x] Commit to week09/timers_basic/
+ - [x] C9 — SysTick Timer + Functional Debugging — SysTick is a Cortex-M standard peripheral, present on your STM32 too. The debugging theory section is solid.
+ 
 
 
 Week 10 — Interrupts + NVIC
@@ -194,6 +194,7 @@ Week 11 — PWM + Integration
 - [ ]  Exercise: integrate UART command parser — accept pwm <0-100> to set duty cycle live
 - [ ]  Exercise: wire together blink, UART, timer, interrupt code into a single project
 - [ ]  Refactor into clean modules: gpio.c, uart.c, timer.c, main.c
+- [ ] C10 — Finite State Machines — FSMs are a fundamental embedded design pattern you'll use in your UART command parser. The concepts translate directly even though the chip differs.
 - [ ]  Commit to week11/pwm_integration/
 
 
