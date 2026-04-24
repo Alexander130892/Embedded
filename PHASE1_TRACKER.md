@@ -235,8 +235,8 @@ Week 12 — Deliverable + Documentation
 | 5 | C Consolidation + Toolchain | ✅ Done |
 | 6 | STM32 Architecture + GPIO | ✅ Done |
 | 7 | UART TX | ✅ Done |
-| 8 | UART RX + Command Parser | ⬜ Not started |
-| 9 | Timers | ⬜ Not started |
+| 8 | UART RX + Command Parser | ✅ Done |
+| 9 | Timers | ✅ Done |
 | 10 | Interrupts + NVIC | ⬜ Not started |
 | 11 | PWM + Integration | ⬜ Not started |
 | 12 | Deliverable + Docs | ⬜ Not started |
@@ -273,4 +273,3 @@ Week 12 — Deliverable + Documentation
 
 ---
 
-*Last updated: <!-- date -->*
