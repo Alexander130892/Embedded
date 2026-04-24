@@ -165,11 +165,11 @@ Week 10 — Interrupts + NVIC
 ~10 hrs | R3 Ch.7 + ARM Cortex-M PM0214
 
 
- - [ ] R3 Ch.7.1 — NVIC controller: vector table layout in STM32, interrupt numbers
- - [ ] R3 Ch.7.2 — Enabling interrupts: EXTI lines, external GPIO interrupts, NVIC enable registers
- - [ ] R3 Ch.7.3 — Interrupt lifecycle: pending, active, preemption — understand what happens on entry/exit
- - [ ] R3 Ch.7.4 — Priority levels for your Cortex-M variant (M3/M4/M7 section if applicable)
- - [ ] R3 Ch.7.6 — Masking interrupts: PRIMASK, BASEPRI — useful for critical sections
+ - [x] R3 Ch.7.1 — NVIC controller: vector table layout in STM32, interrupt numbers
+ - [x] R3 Ch.7.2 — Enabling interrupts: EXTI lines, external GPIO interrupts, NVIC enable registers
+ - [x] R3 Ch.7.3 — Interrupt lifecycle: pending, active, preemption — understand what happens on entry/exit
+ - [x] R3 Ch.7.4 — Priority levels for your Cortex-M variant (M3/M4/M7 section if applicable)
+ - [x] R3 Ch.7.6 — Masking interrupts: PRIMASK, BASEPRI — useful for critical sections
  - [ ] Exercise: enable TIM2 update interrupt → toggle LED in ISR
  - [ ] Exercise: enable EXTI interrupt on a button GPIO → debounce in ISR or main loop
  - [ ] Exercise: refactor UART RX to use RXNE interrupt instead of polling
