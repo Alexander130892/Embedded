@@ -24,3 +24,6 @@ Release/
 .metadata/
 .settings/
 *.launch
+
+.DS_Store
+changed_files.txt
